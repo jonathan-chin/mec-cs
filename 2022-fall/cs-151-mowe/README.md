@@ -1,11 +1,11 @@
->Medgar Evers College of CUNY
-Department of Physical, Environmental, and Computer Sciences
+>Medgar Evers College of CUNY  
+Department of Physical, Environmental, and Computer Sciences  
 Course Syllabus
 
 # CS 151 - Introduction to Computing
 
 ## Course Details
-> 3 credits; 3 class hours
+> 3 credits; 3 class hours  
 Mondays and Wednesdays 6:20pm - 8:20pm EST  
 via Zoom
 
