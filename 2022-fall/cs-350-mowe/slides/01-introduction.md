@@ -90,4 +90,4 @@ Let's shake off some dust and write a sample banking OOP example in JS
 
 # Assignment
 
-TBD
+[OOP DND](../assignments/01-oop-dnd.md)
