@@ -96,7 +96,7 @@ age += 5;
 Often, you will want a variable to start off with a particular value. This is called `initialization`. You can `declare` and `initialize` in a single `statement`:
 
 ```
-char day_of_week[] = "Saturday";
+string day_of_week = "Saturday";
 ```
 
 ---
