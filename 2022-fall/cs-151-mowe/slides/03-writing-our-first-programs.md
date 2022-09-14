@@ -117,3 +117,9 @@ Let's examine a sample program and expand it to practice some of what we just le
 ---
 
 # Homework Lab
+
+---
+
+# Sample Code
+
+[Calculate Age Example](https://replit.com/@jonchin/2022-fall-cs-151-mowe-sample-code-03)
