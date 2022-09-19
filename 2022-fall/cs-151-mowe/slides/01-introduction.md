@@ -46,7 +46,7 @@ Let's look at replit now!
 
 # How to use Repl
 
-[Forking a repl](https://cs.westminstercollege.edu/cmpt201/repl.it.html#:~:text=Forking%20a%20repl,you%20can%20modify.) provided by YouTube Channel Mr. Hamilton
+[Forking a repl](https://www.youtube.com/watch?v=dJSWW2uDx5Y) provided by YouTube Channel Mr. Hamilton  
 [Generating a join link](https://cs.westminstercollege.edu/cmpt201/repl.it.html#:~:text=Working%20together%20on,window%20in%20Zoom) provided by CMPT 201 at Westminster College
 
 ---
@@ -103,4 +103,4 @@ We'll do a deep dive into c++ syntax later on. For now, let's do an exploratory 
 # Action Items
 
 - Begin reading Chapter 1 (pages 80 - 133). Finish by 2022-09-14.
-- Begin [Checkpoint Assignment 1](). Due on 2022-09-14.
+- Begin [Checkpoint Assignment 1](https://replit.com/@jonchin/2022-fall-cs-151-mowe-checkpoint-assignment-01~). Due on 2022-09-14.

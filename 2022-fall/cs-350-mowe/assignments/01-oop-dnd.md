@@ -12,9 +12,8 @@ You are to write the classes necessary to play a game of Dungeons and Dragons us
   - name
   - race
   - gender
-  - team
+  - team of other `Players`
   - hitpoints
-  - items (represented by an array of strings)
 
 - create a `Monster` class that has
   - name
@@ -22,23 +21,36 @@ You are to write the classes necessary to play a game of Dungeons and Dragons us
   - hitpoints
 
 - make sure a `Player` can
-  - say their name
-  - say their race
-  - say their gender
-  - say their hitpoints
+  - return their name
+  - return their race
+  - return their gender
+  - return their hitpoints
   - take damage
-  - die
-  - attack a monster for 1 damage
-  - pick up an item from a dead Monster
-  - team up with other Players
+  - attack a `Monster` for 1 damage
+  - team up with other `Players`
+  - when a `Player` has no more hitpoints, they cannot take any more actions
 
 - make sure a `Monster` can
-  - say their name
-  - say their race
-  - say their hitpoints
+  - return their name
+  - return their race
+  - return their hitpoints
   - take damage
-  - attack a player for 1 damage
-  - die and drop an item
+  - attack a `Player` for 2 damage and an additional 1 to each `Player` on their team
+  - when the `Monster` has no more hitpoints, it cannot take any more actions
+
+## Simulating a Fight
+
+To test your code, please program the following sequence:
+
+1. Create a `Player` with 10 hitpoints. Other details are up to you.
+2. Create a `Player` with 15 hitpoints. Other details are up to you.
+3. Create a `Monster` with 35 hitpoints. Other details are up to you.
+4. Have both `Players` team up.
+5. Console log everyone's details
+6. Until the `Monster` is dead or both `Players` are dead:
+  1. Have each `Player` attack the `Monster`
+  2. Have the `Monster` attack the `Player` and then their team member
+  3. Console log everyone's details again
 
 ## Requirements
 

@@ -1,10 +1,11 @@
 ---
 theme: default
+class: invert
 paginate: true
 ---
 
 # 02 - C++ Syntax
-2022-09-10
+2022-09-12
 
 ---
 
@@ -95,7 +96,7 @@ age += 5;
 Often, you will want a variable to start off with a particular value. This is called `initialization`. You can `declare` and `initialize` in a single `statement`:
 
 ```
-char day_of_week[] = "Saturday";
+string day_of_week = "Saturday";
 ```
 
 ---
@@ -108,4 +109,4 @@ Let's write a simple c++ program from scratch!
 
 # Action Items
 
-- [Programming Assignment 1](https://replit.com/@jonchin/2022-fall-cs-151-sa-programming-assignment-01). Due on 2022-09-17.
+- [Programming Assignment 1](https://replit.com/@jonchin/2022-fall-cs-151-sa-programming-assignment-01). Due date TBD.
