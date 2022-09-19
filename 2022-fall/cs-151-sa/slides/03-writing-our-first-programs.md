@@ -111,7 +111,7 @@ Let's examine a sample program and expand it to practice some of what we just le
 # Action Items
 
 - Begin reading Chapter 2 except pages 193-206 and 233-236.
-- [Checkpoint Assignment 2](https://replit.com/@jonchin/2022-fall-cs-151-mowe-checkpoint-assignment-02). Due 2022-09-21
+- [Checkpoint Assignment 2](https://replit.com/@jonchin/2022-fall-cs-151-mowe-checkpoint-assignment-02). Due 2022-09-24
 
 ---
 

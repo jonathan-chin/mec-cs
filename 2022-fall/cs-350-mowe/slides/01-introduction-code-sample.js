@@ -34,18 +34,15 @@ console.log(ShareMeals.employees);
 ShareMeals.employees.push(Jon);
 console.log(ShareMeals.employees);
 
-pay(Jon);
-console.log(Jon.account_balance);
 
-console.log(ShareMeals.employees);
-
+// destructuring will not produce a side effect
 let {account_balance} = Jon;
 account_balance += 100;
-console.log(account_balance);
 console.log(Jon.account_balance);
-
-
 
 function pay(who){
     who.account_balance += 100;
 }
+
+pay(Jon);
+console.log(Jon.account_balance);
