@@ -48,9 +48,9 @@ To test your code, please program the following sequence:
 4. Have both `Players` team up.
 5. Console log everyone's details
 6. Until the `Monster` is dead or both `Players` are dead:
-  1. Have each `Player` attack the `Monster`
-  2. Have the `Monster` attack the `Player` and then their team member
-  3. Console log everyone's details again
+  - Have each `Player` attack the `Monster`
+  - Have the `Monster` attack the `Player` and then their team member
+  - Console log everyone's details again
 
 ## Requirements
 
