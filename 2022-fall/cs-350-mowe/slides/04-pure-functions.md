@@ -249,7 +249,7 @@ const turn = (number, guess) => {
 	return is_guess_correct(number, guess, is_even);
 };
 
-const game() => {
+const game = () => {
 	const result = turn(
 		Math.floor(Math.random() * 100), // get random int 0-100
 		Math.random() < 0.5 // randomly get true or false
