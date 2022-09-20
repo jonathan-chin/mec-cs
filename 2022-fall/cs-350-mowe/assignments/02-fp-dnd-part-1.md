@@ -17,7 +17,7 @@ We are going to rewrite our DND simulator in sections. For this first section, y
 
 We will initially simulate a simpler fight
 
-- Create a `Player` with 10 hitpoints. Other details are up to you.
+- Create a `Player` with 20 hitpoints. Other details are up to you.
 - Create a `Monster` with 35 hitpoints. Other details are up to you.
 - Until the `Player` or `Monster` is dead:
   - Announce the game state.
