@@ -48,7 +48,7 @@ const count_down_functional = (number) => {
 	if(number <= 0){
 		say('done!');
 	}else{
-		return count_down(number - 1);
+		return count_down_functional(number - 1);
 	}
 }
 const say = (text) => {
@@ -58,6 +58,13 @@ const say = (text) => {
 
 count_down_functional(10);
 ```
+
+---
+
+# Limitations of Recursion
+
+- Each recursive call has `overhead cost`
+- They persist a small bit of data in memory until the whole chain is resolved
 
 ---
 
@@ -119,17 +126,18 @@ const passing_grades = grades.filter(get_only_passing_grades);
 
 ```
 const remove_short_strings = (string) => {return string.length > 5;};
-const capitalize_strings = (string) => {return string.toUpper();};
+const capitalize_strings = (string) => {return string.toUpperCase();};
 const strings = ['mec', 'medgar', 'medgar evers', 'medgar evers college'];
 
 // intermediate values method
 const only_long_strings = strings.filter(remove_short_strings);
-const capitalized_long_strings = only_long_strings.map(capitalize_strings);
+const capitalized_long_strings_intermediate_method = only_long_strings.map(capitalize_strings);
 
 // function composition method
-const capitalized_long_strings = strings
+const capitalized_long_strings_function_composition_method = strings
 	.filter(remove_short_strings)
 	.map(capitalize_strings);
+console.log(capitalized_long_strings_function_composition_method);
 
 // since .filter and .map return strings, we can chain them together
 ```
