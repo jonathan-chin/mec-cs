@@ -119,6 +119,16 @@ int main(){
 
 ---
 
+# Common variable name formats
+
+```
+int days_in_february;
+int daysInFebruary;
+int DaysInFebruary;
+```
+
+---
+
 # Logic Error vs Runtime Error
 
 We might not have enough time to go over this today :(
@@ -212,3 +222,8 @@ Let's examine it more closely.
 - Checkpoint Assignment 03 is due 2022-09-28 (will post tonight)
 
 ---
+
+# Example Replits
+
+[Comments](https://replit.com/@jonchin/2022-fall-cs-151-mowe-comments-example)
+[Functions](https://replit.com/@jonchin/2022-fall-cs-151-mowe-functions-example)
