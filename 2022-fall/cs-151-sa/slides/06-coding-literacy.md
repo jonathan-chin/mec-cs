@@ -42,6 +42,24 @@ cout << "you.\n";
 
 ---
 
+# Reading Code 2.5/4
+
+```
+int x;
+int y;
+
+x = 9;
+x = 3;
+y = x;
+```
+
+- left hand side = right hand side
+- if a variable is on the left hand side, its value will be overwritten
+- if a variable is on the right hand side, its value will be read
+
+
+---
+
 # Reading Code 3/4
 
 ```
@@ -82,7 +100,7 @@ return 0;
 
 # Coding Practice
 
-Write assignment statements that perform the following operations with int variable i , double variables d1 and and char variable c.
+Write assignment statements that perform the following operations with int variable i , double variables d1 and d2 and char variable c.
 
 ```
 A. Subtract 8.5 from d2 and store the result in d1.
@@ -184,22 +202,8 @@ double f = m * METERS_TO_FEET;
 
 ---
 
-# Formatting Strings 1/
-
-- Printing to the terminal with `cout` 
-
----
-
 # Coding Lab
 
 ---
 
 # Homework Lab
-
----
-formatting 342
-
-getline 371
-string concatenation + 384
-
-random (cstdlib
