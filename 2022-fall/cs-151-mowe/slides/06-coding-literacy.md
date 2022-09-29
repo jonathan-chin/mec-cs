@@ -49,9 +49,11 @@ cout << "you.\n";
 int x;
 int y;
 
-x = 9;
+
+x = 9; // x <- 9;
 x = 3;
 y = x;
+x = x + 1;
 ```
 
 - left hand side = right hand side
@@ -168,6 +170,9 @@ int main(){
 
 `Challenge` how can we write a program that calculates the Pythagorean Theorem?
 
+```
+// Given int a and int b, calculate and return the value c
+```
 ---
 
 # Constants 1/2
