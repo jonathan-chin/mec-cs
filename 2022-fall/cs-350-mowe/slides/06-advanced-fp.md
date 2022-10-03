@@ -100,10 +100,10 @@ const states_unshift = ['AL', ...states];
 ```
 const rainbow = ['red', 'orange', 'yellow'];
 const pop = rainbow[rainbow.length - 1];
-const popped_rainbow = structuredClone(rainbow).slice(0, rainbow.length - 2);
+const popped_rainbow = structuredClone(rainbow).slice(0, rainbow.length - 1);
 
 const shift = rainbow[0];
-const shifted_rainbow = structuredClone(rainbow).slice(1, rainbow.length - 1);
+const shifted_rainbow = structuredClone(rainbow).slice(1, rainbow.length);
 ```
 
 ---
@@ -122,7 +122,7 @@ const shifted_rainbow = structuredClone(rainbow).slice(1, rainbow.length - 1);
 ```
 const pop = (array) => {
 	return {
-		value: array[0],
+		value: array[array.length - 1],
 		new_array: structuredClone(array).slice(0, -1);
 	}
 };
