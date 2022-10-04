@@ -78,18 +78,14 @@ This can quickly lead to a `call stack exceeded` error.
 # Memoization Example 3/3
 
 ```
-// fibonnaci function from before
-const with_memoization = (function_to_memoize) => {
-	const new (n, memo = {}) => {
-		if(memo[n]){
-			return memo[n]
-		}
-		const new_memo = {
-			...memo,
-			{
-				n: 
-		}
-	}
+// credit: https://www.geeksforgeeks.org/javascript-memoization/
+
+function memoisedFibonacci(n, cache) {
+    cache = cache || [1, 1]
+    if (cache[n])
+        return cache[n]
+    return cache[n] = memoisedFibonacci(n - 1, cache) + 
+    memoisedFibonacci(n - 2, cache);
 }
 ```
 
