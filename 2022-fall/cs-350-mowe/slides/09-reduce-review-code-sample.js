@@ -66,7 +66,8 @@ const main = () => {
 	    }else{
 		// effectively skip over this dog
 		say(`skipping over a ${dogs[current_index]}lb dog`);
-		const skipped_dog = dogs[current_index];
+		const skipped_dog = dogs[current_index]; // impure! this relies on a variable outside of the function scope
+		// todo: refactor to include full dog object: size and reducer function
 		return [
 		    food_left,
 		    [...dogs_skipped, skipped_dog]
