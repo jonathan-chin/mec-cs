@@ -6,7 +6,7 @@ We've familiarized ourselves with the core concepts of functional programming. N
 
 ## Task
 
-Write a series of `pure` and `impure` functions that establishes the DnD game engine described below. You can reuse bits of code from your previous `FP DND Part 1` assignment. You should use `FP` concepts like:
+Write a series of `pure` and `impure` functions that establishes the D&D game engine described below. You can reuse bits of code from your previous `FP DND Part 1` assignment. You should use `FP` concepts like:
 
 - map
 - filter
