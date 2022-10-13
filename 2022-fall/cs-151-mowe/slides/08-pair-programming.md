@@ -39,16 +39,16 @@ paginate: true
 
 ---
 
-# Pros and Cons
-
-## Pros
+# Pros
 
 - Reduces fatigue. Many errors are often made because of fatigue. 2 coders means having "fresh eyes".
 - Each person brings a different perspective and can lead to more creative problem solving
 - Allows specialization. The partners can have different strengths and weaknesses but play off each other.
   - For example, if a program is to be written in `C++`, the navigator doesn't need to know the language and instead rely on the driver
 
-## Cons
+---
+
+# Cons
 - Can take longer. 2 people are being used to solve 1 problem.
   - However, the resulting code tends to be **stronger**.
 
