@@ -28,8 +28,8 @@ const object_old_method = Object.assign(
 // alternate method
 
 const object_new_method = {
-	...greating,
-	{second_word: 'everyone'}
+	...greeting,
+	second_word: 'everyone'
 }
 ```
 

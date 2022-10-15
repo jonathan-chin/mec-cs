@@ -44,8 +44,19 @@ const print_regular_badge = () => {
 				get_name(person)
 			)
 		);
-	}
+	};
 }
+
+/*
+   example of function composition
+   f( g( h( x ) ) )
+
+   example of function chaining
+   h(x)
+   .g()
+   .f()
+
+ */
 
 const print_vip_badge = () => {
 	return (person) => {
