@@ -62,23 +62,4 @@ const total_grades = grades.reduce(
 
 ---
 
-# Involved example
-
-
-
----
-
-# Review of Functional Programming
-
-- Side Effects
-- Pure / Impure Functions
-- First Class Functions
-- Higher Order Functions
-- Recursion
-- map
-- filter
-- reduce
-
----
-
-# Homework Lab
+# Advanced Example
