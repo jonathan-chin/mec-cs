@@ -8,7 +8,7 @@ Write a series of `pure` and `impure` functions to create a simplified game engi
 
 `Settlers of Catan` is a very popular board game; it has sold more than 32 million copies in 40 languages [1]. The premise is that a group of players have traveled to a new island and race to get control. They harvest various resources, use those resources to build structures like settlements, cities, and roads, earning victory points along the way. They have armies they can use and there is the ever-looming shadow of the `Robber` who steals from the rich. The first player to reach 10 victory points wins!
 
-[1](https://www.npr.org/2020/08/07/897271885/)
+1 [NPR, Families Stuck At Home Turn To Board Game Catan, Sending Sales Skyrocketing](https://www.npr.org/2020/08/07/897271885/)
 
 ## Our Engine
 
