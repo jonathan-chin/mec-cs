@@ -111,13 +111,13 @@ appetizers[-3:] # get all items starting from 3rd spot from end to end
 
 - Python also has the concept of `destructuring` with `tuples`
 - called `packing` and has similar syntax to what we've seen in javascript
-- there's an additional wildcard option to grab any remaining items in a tuple
+- there's an additional `expansion` or `splat` operator to grab any remaining items in a tuple
 
 ```
 countries = ('Angola', 'Bhutan', 'Canada', 'Denmark', 'England')
 (a, b, c, d, e) = countries
 # a -> 'Angola', etc
-(a, *others) = countries
+(a, *others) = countries # uses * to splat the rest of items
 # others -> ['Bhutan', 'Canada', 'Denmark', 'England']
 (a, *others, e) = countries
 # others -> ['Bhutan', 'Canada', 'Denmark']
