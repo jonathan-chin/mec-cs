@@ -4,7 +4,7 @@ class: invert
 paginate: true
 ---
 
-# 10 - Review, Python Intro, and Midterm
+# 11 - Review, Python Intro, and Midterm
 2022-10-19
 
 ---
