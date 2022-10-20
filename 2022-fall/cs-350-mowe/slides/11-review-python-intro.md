@@ -39,7 +39,7 @@ Key concepts:
 # Python Intro
 
 - We'll be continuing the rest of the semester in **Python 3.10**
-- For the basics of syntax, you can review [W3 Schools](~/Library/Logs/DiagnosticReports)
+- For the basics of syntax, you can review [W3 Schools](https://www.w3schools.com/python/)
 - Same concepts, different implementations
 
 ---
@@ -109,7 +109,20 @@ appetizers[-3:] # get all items starting from 3rd spot from end to end
 
 # Destructuring
 
-- Python also has the concept of `destructuring`
+- Python also has the concept of `destructuring` with `tuples`
+- called `packing` and has similar syntax to what we've seen in javascript
+- there's an additional wildcard option to grab any remaining items in a tuple
+
+```
+countries = ('Angola', 'Bhutan', 'Canada', 'Denmark', 'England')
+(a, b, c, d, e) = countries
+# a -> 'Angola', etc
+(a, *others) = countries
+# others -> ['Bhutan', 'Canada', 'Denmark', 'England']
+(a, *others, e) = countries
+# others -> ['Bhutan', 'Canada', 'Denmark']
+
+```
 
 ---
 
