@@ -104,29 +104,3 @@ appetizers[3:] # get all items from 3rd spot to end
 appetizers[-3:] # get all items starting from 3rd spot from end to end
 # etc
 ```
-
----
-
-# Destructuring
-
-- Python also has the concept of `destructuring` with `tuples`
-- called `packing` and has similar syntax to what we've seen in javascript
-- there's an additional `expansion` or `splat` operator to grab any remaining items in a tuple
-
-```
-countries = ('Angola', 'Bhutan', 'Canada', 'Denmark', 'England')
-(a, b, c, d, e) = countries
-# a -> 'Angola', etc
-(a, *others) = countries # uses * to splat the rest of items
-# others -> ['Bhutan', 'Canada', 'Denmark', 'England']
-(a, *others, e) = countries
-# others -> ['Bhutan', 'Canada', 'Denmark']
-
-```
-
----
-
-# Coding Practice
-
-- Given what you now about `tuples`, how would you code the `functional programming` implementation of pop()?
-- Hint: review how we did it in javascript!
