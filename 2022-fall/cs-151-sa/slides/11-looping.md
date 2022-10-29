@@ -127,37 +127,3 @@ do{
 
 # Pause for Questions
 ## and code examples
-
----
-
-# For Loops
-
-- `for` loops are special kinds of `while` loops
-- still repeats a block of code
-- composed of 4 parts:
-    - initialization: sets up any necessary variables
-	- condition: is checked before each loop
-	- update: runs at the `end` of each loop
-	- code block: code to be run
-
----
-
-# For Loop Example
-
-```
-for(int days_left = 10; days_left > 0; days--){
-	// do something
-}
-
-for(
-	int days_left = 10; // initialization
-	days_left > 0; // condition
-	days_left-- // update
-	){
-	// do something	
-}
-```
-
----
-
-# Coding Lab
