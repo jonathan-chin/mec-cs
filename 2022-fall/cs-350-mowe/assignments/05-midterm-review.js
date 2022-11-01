@@ -1,3 +1,5 @@
+const resources = ['wool', 'grain', 'lumber', 'brick', 'ore']; // causes side effect but makes our lives easier
+
 const make_player = () => {
     return {
 	resources: [],
@@ -5,6 +7,8 @@ const make_player = () => {
     };
 };
 
+
+/*
 const make_players = (quantity) => {
     // assume quantity is 1+
     if(quantity === 1){
@@ -16,6 +20,7 @@ const make_players = (quantity) => {
 	...make_players(quantity - 1)
     ];
 };
+*/
 
 const get_random_number = (max) => {
     return Math.floor(
@@ -24,7 +29,7 @@ const get_random_number = (max) => {
 }
 
 const give_resource = (player) => {
-    const resources = ['wool', 'grain', 'lumber', 'brick', 'ore'];
+    //const resources = ['wool', 'grain', 'lumber', 'brick', 'ore'];
     const random_index = get_random_number(resources.length);
     const random_resource = resources[random_index];
     return {
@@ -56,7 +61,7 @@ const reduce_resources = (resources, target_resources) => {
 };
 
 const give_victory_points = (player) => {
-    const resources = ['wool', 'grain', 'lumber', 'brick', 'ore'];
+    //const resources = ['wool', 'grain', 'lumber', 'brick', 'ore'];
     const three_of_a_kind_resources = resources.filter(
 	(resource) => {
 	    return count_resources(player.resources, resource) === 3;
@@ -74,6 +79,22 @@ const give_victory_points_to_players = (players) => {
     return players.map(give_victory_points);
 };
 
+const array_of_x_hof = (count, generator) => {
+    if(count === 0){
+	return [];
+    }
+    if(count === 1){
+	return [generator()];
+    }
+
+    // implied else
+    return [
+	generator(),
+	...array_of_x_hof(count - 1, generator)
+    ];
+}
+
+/*
 const array_of_x = (count, resource) => {
     // assume count >= 0
     if(count === 0){
@@ -89,11 +110,13 @@ const array_of_x = (count, resource) => {
 	...array_of_x(count - 1, resource)
     ]
 }
+*/
 
 const rob_resource = (resources, target_resource) => {
     const count = count_resources(resources, target_resource);
     const new_count = Math.floor(count / 2);
-    let new_array = array_of_x(new_count, target_resource);
+    // let new_array = array_of_x(new_count, target_resource);
+    let new_array = array_of_x_hof(new_count, () => {return target_resource;});
     return new_array;
 }
 
@@ -101,7 +124,7 @@ const rob_resources = (player) => {
     if(player.resources.length < 6){
 	return player;
     }
-    const resources = ['wool', 'grain', 'lumber', 'brick', 'ore'];
+    //const resources = ['wool', 'grain', 'lumber', 'brick', 'ore'];
     const robbed_resources = resources.map(
 	(target_resource) => rob_resource(player.resources, target_resource)
     ).reduce(
@@ -159,4 +182,7 @@ const game = (players) => {
     }
 };
 
-game(make_players(10));
+//game(make_players(10));
+game(
+    array_of_x_hof(10, make_player)
+);
