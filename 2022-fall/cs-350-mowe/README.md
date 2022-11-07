@@ -47,9 +47,9 @@ Assignments may be submitted past the due date with the following penalties
 | Days Late | Points Deduction |
 | --- | --- |
 | 1-2 | 2 |
-| 3-4 | 2 |
-| 5-6 | 2 |
-| 7-8 | 2 |
+| 3-4 | 4 |
+| 5-6 | 6 |
+| 7-8 | 8 |
 | 9+ | no credit |
 
 ## Honor Code and Plagiarism

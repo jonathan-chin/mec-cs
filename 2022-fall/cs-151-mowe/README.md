@@ -55,9 +55,9 @@ Programming Assignments may be submitted past the due date with the following pe
 | Days Late | Points Deduction |
 | --- | --- |
 | 1-2 | 2 |
-| 3-4 | 2 |
-| 5-6 | 2 |
-| 7-8 | 2 |
+| 3-4 | 4 |
+| 5-6 | 6 |
+| 7-8 | 8 |
 | 9+ | no credit |
 
 ## Checkpoint Assignments
@@ -75,9 +75,9 @@ Checkpoint Assignments may be submitted past the due date with the following pen
 | Days Late | Points Deduction |
 | --- | --- |
 | 1-2 | 20% |
-| 3-4 | 20% |
-| 5-6 | 20% |
-| 7-8 | 20% |
+| 3-4 | 40% |
+| 5-6 | 60% |
+| 7-8 | 80% |
 | 9+ | no credit |
 
 
