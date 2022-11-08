@@ -1,7 +1,24 @@
+# possible games we can implement
+# War
+# How to Play: each player flips over the top card of their deck
+# highest number wins
+# winner takes both cards and places at bottom
+# if cards have same value then both players place 3 cards face down and one card face up (might skip this rule)
+# goes until one player has no cards left
+
+# easy:
+# Go Fish
+
+# moderate:
+# Blackjack
+# Uno
+
+# difficult / large projects:
+# Bridge
+# Spades
+
 import random
 from functools import reduce
-
-initial_deck = (3, 5, 1, 7, 9, 3)
 
 def generate_suits_of_card(card):
     suits = ['diamonds', 'clubs', 'hearts', 'spades']
