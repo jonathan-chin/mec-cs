@@ -41,19 +41,15 @@ def deal_random_card(deck):
     return (return_card, new_deck)
 
 def get_random_index(deck):
-    # for now, never pick first or last card
-    return random.randint(1, len(deck) - 2)
+    return random.randint(0, len(deck) - 1)
 
 def swap_two_cards(first_index, second_index, deck):
-    return deck[:first_index] + deck[second_index:second_index + 1] + deck[first_index + 1: second_index] + deck[first_index:first_index + 1] + deck[second_index + 1:]
-    #first_card = deck[first_index:first_index + 1]
-    #second_card = deck[second_index:second_index + 1]
-    #left_partition = deck[:first_index]
-    #middle_partition = deck[first_index + 1:second_index]
-    #right_partition = deck[second_index + 1:]
-    #return left_partition + second_card + middle_partition + first_card + right_partition
-    # 1 2 3 4 5 6
-    #   ^     ^
+    first_card = deck[first_index:first_index + 1]
+    second_card = deck[second_index:second_index + 1]
+    left_partition = () if first_index == 0 else deck[:first_index]
+    middle_partition = () if first_index == second_index else deck[first_index + 1: second_index]
+    right_partition = () if second_index == len(deck) - 1 else deck[second_index + 1:]
+    return left_partition + second_card + middle_partition + first_card + right_partition
 
 def max(a, b):
     if(a > b):
@@ -71,6 +67,8 @@ def min(a, b):
 def shuffle_one_iteration(deck):
     first_index = get_random_index(deck)
     second_index = get_random_index(deck)
+    # possible that both indices are the same
+    # but probability is low and if iterated enough times, its effect is minimal
     return swap_two_cards(min(first_index, second_index), max(first_index, second_index), deck)
 
 def repeat_x_times(payload, function, times):
@@ -82,7 +80,7 @@ def repeat_x_times(payload, function, times):
     
 def shuffle(deck):
     # strategy: swap two cards, repeat sufficient number of times
-    return repeat_x_times(deck, shuffle_one_iteration, 100)
+    return repeat_x_times(deck, shuffle_one_iteration, 500)
 
 deck = generate_deck()
 shuffled_deck = shuffle(deck)
