@@ -32,7 +32,13 @@ def generate_deck():
 
 def deal_one_card_from_top(deck):
     (top_card, *rest_of_deck) = deck
-    return (top_card, rest_of_deck)
+    return (top_card, tuple(rest_of_deck))
+
+def deal_x_from_top(deck, times, payload = ()):
+    if(times == 0 or len(deck) == 0):
+        return(deck, payload)
+    (top_card, rest_of_deck) = deal_one_card_from_top(deck)
+    return deal_x_from_top(rest_of_deck, times - 1, top_card + payload)
 
 def deal_random_card(deck):
     random_index = random.randint(0, len(deck) - 1)
@@ -51,17 +57,11 @@ def swap_two_cards(first_index, second_index, deck):
     right_partition = () if second_index == len(deck) - 1 else deck[second_index + 1:]
     return left_partition + second_card + middle_partition + first_card + right_partition
 
-def max(a, b):
-    if(a > b):
-        return a
-    else:
-        return b
+def get_max(a, b):
+    return a if a > b else b;
 
-def min(a, b):
-    if(a < b):
-        return a
-    else:
-        return b
+def get_min(a, b):
+    return a if a < b else b;
 
     
 def shuffle_one_iteration(deck):
@@ -84,9 +84,12 @@ def shuffle(deck):
 
 deck = generate_deck()
 shuffled_deck = shuffle(deck)
-print(shuffled_deck)
+
+(remaining_deck, hand) = deal_x_from_top(shuffled_deck, 5)
+print(hand)
+print()
+print(remaining_deck)
 
 #(card, *new_deck) = deal_random_card(deck)
 #print(card)
 #print(new_deck)
-
