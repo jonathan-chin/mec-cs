@@ -4,7 +4,15 @@
 
 Ask the user for 5 days worth of temperatures. Then, print out the min and max temperatures. You should use at least 1 array and 2 for loops.
 
-## 
+## Fibonacci Sequence
+
+In math, a Fibonacci Sequence is a special list of numbers that follow a particular pattern: any number is the sum of the two previous numbers in the list. A true Fibonacci Sequence starts with the same two numbers: 1, 1. Here is an example:
+
+1 1 2 3 5 8 13 21 34 55
+
+Write a C++ program that asks users for a number of elements they want to see. This number must be >= 2. Then, ask the user for the first 2 numbers that they want their sequence to start with. Fill out the rest of the array according to the Fibonnacci Sequence rules and print it out.
+
+You should use at least 1 array and 3 for loops.
 
 ## Grading on a Curve
 
