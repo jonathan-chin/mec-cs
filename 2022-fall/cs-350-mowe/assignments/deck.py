@@ -38,7 +38,7 @@ def deal_x_from_top(deck, times, payload = ()):
     if(times == 0 or len(deck) == 0):
         return(deck, payload)
     (top_card, rest_of_deck) = deal_one_card_from_top(deck)
-    return deal_x_from_top(rest_of_deck, times - 1, top_card + payload)
+    return deal_x_from_top(rest_of_deck, times - 1, (top_card, ) + payload)
 
 def deal_random_card(deck):
     random_index = random.randint(0, len(deck) - 1)
