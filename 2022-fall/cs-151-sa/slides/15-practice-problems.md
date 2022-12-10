@@ -37,22 +37,26 @@ You are building an interface to help an hourly wage worker determine their tota
 
 Usually, a worker is paid at their normal rate for every hour during the first 40 hours of a week. For every hour above 40 in a given week, they get a bonus. For example:
 
+```
 base hourly pay: 10
 overtime multiplier: 1.5
 hours in week 1: 30
 pay in week 1: 300
 hours in week 2: 50
 pay in week 2: 450 (300 + 150)
+```
 
 Write a C++ program that asks the user how many weeks are in their pay period. Then, ask them what their base hourly pay is and what their overtime multiplier is. Then for each week in their pay period, print out: total regular pay, total overtime pay, and total gross pay. Here's an example output:
 
-How many weeks did you work? 4  
-What is your base hourly pay? 8  
-what is your overtime multiplier? 1.5  
-how many hours did you work in week 1? 20  
-how many hours did you work in week 2? 45  
-how many hours did you work in week 3? 40  
-how many hours did you work in week 4? 50  
+```
+How many weeks did you work? 4
+What is your base hourly pay? 8
+what is your overtime multiplier? 1.5
+how many hours did you work in week 1? 20
+how many hours did you work in week 2? 45
+how many hours did you work in week 3? 40
+how many hours did you work in week 4? 50
+```
 
 | week | total regular pay | total overtime pay | total gross pay |
 |---|---|---|---|
