@@ -43,7 +43,7 @@ overtime multiplier: 1.5
 hours in week 1: 30
 pay in week 1: 300
 hours in week 2: 50
-pay in week 2: 450 (300 + 150)
+pay in week 2: 550 (400 + 150)
 ```
 
 Write a C++ program that asks the user how many weeks are in their pay period. Then, ask them what their base hourly pay is and what their overtime multiplier is. Then for each week in their pay period, print out: total regular pay, total overtime pay, and total gross pay. Here's an example output:
