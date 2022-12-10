@@ -22,7 +22,7 @@ Write a C++ program that asks a user to enter in 7 grades with values between 0-
 
 You should use at least 3 for loops and at least 1 array.
 
-## Name Registery
+## Name Registry
 
 There are some common practices among some cultures that can lead to people having very long or very short names. Some cultures only have a first and last name. Some can have 4: first name, middle name, mother's maiden name, and father's last name.
 
@@ -31,13 +31,33 @@ Write a C++ program that asks the user to enter their full name, one section at 
 You should use at least 1 array, at least 1 for loop, and potentially 1 or more while loops.
 
 
-## Carnival Ride Tickets
+## Paycheck Calculator
 
-You are building an interface to allow a parent to buy carnival rides for their children. There are certain restrictions, however:
+You are building an interface to help an hourly wage worker determine their total gross pay for a given time period.
 
-Children must be at least 50 inches tall
-A maximum of 10 tickets can be purchased at a time
+Usually, a worker is paid at their normal rate for every hour during the first 40 hours of a week. For every hour above 40 in a given week, they get a bonus. For example:
 
-Write a C++ program that asks the user to enter the heights of their children, one at a time, all in inches. If the user enters 10 heights, stop asking them. If the user types in -1, stop asking them. Then, go through all of the heights entered and count only those that are valid. Finally, print out the total number of tickets the user can purchase.
+base hourly pay: 10
+overtime multiplier: 1.5
+hours in week 1: 30
+pay in week 1: 300
+hours in week 2: 50
+pay in week 2: 450 (300 + 150)
 
-You should use at least 1 array, at least 1 for loop, and possibly 1 or more while loops.
+Write a C++ program that asks the user how many weeks are in their pay period. Then, ask them what their base hourly pay is and what their overtime multiplier is. Then for each week in their pay period, print out: total regular pay, total overtime pay, and total gross pay. Here's an example output:
+
+How many weeks did you work? 4
+What is your base hourly pay? 8
+what is your overtime multiplier? 1.5
+how many hours did you work in week 1? 20
+how many hours did you work in week 2? 45
+how many hours did you work in week 3? 40
+how many hours did you work in week 4? 50
+week | total regular | total overtime | total gross
+---
+1 | 160 | 0 | 160
+2 | 320 | 60 | 380
+3 | 320 | 0 | 320
+4 | 320 | 120 | 440
+
+You should use at least 2 arrays and 2 for loops.
