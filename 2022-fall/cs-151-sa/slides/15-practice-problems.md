@@ -65,4 +65,4 @@ how many hours did you work in week 4? 50
 |3 | 320 | 0 | 320|
 |4 | 320 | 120 | 440|
 
-You should use at least 2 arrays and 2 for loops.
+You should use at least 1 array and 2 for loops.
