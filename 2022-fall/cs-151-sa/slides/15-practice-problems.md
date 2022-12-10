@@ -53,11 +53,12 @@ how many hours did you work in week 1? 20
 how many hours did you work in week 2? 45
 how many hours did you work in week 3? 40
 how many hours did you work in week 4? 50
-week | total regular | total overtime | total gross
----
-1 | 160 | 0 | 160
-2 | 320 | 60 | 380
-3 | 320 | 0 | 320
-4 | 320 | 120 | 440
+
+| week | total regular | total overtime | total gross |
+|---|---|---|---|
+|1 | 160 | 0 | 160|
+|2 | 320 | 60 | 380|
+|3 | 320 | 0 | 320|
+|4 | 320 | 120 | 440|
 
 You should use at least 2 arrays and 2 for loops.
