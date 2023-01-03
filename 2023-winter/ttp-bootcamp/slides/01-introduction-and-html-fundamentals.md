@@ -25,7 +25,7 @@ paginate: true
 
 ---
 
-# Example Projects from Previous
+# Example Projects from Previous Bootcamps
 
 - [Matching Game](https://replit.com/@IdowuIgbinoba/finalproject)
 - [Wheel of Riches](https://replit.com/@kathrynabrown/Wheel-of-Riches-MEC-project)
@@ -37,7 +37,8 @@ paginate: true
 # Intro to Staff
 
 - Jon, Instructor
-- Juan, Director
+- Juan, Director and Advisor
+- Kalyssa, Career and Success Coach
 - Michael, Teaching Assistant and Alumnus
 - Keith, Teaching Assistant and Alumnus
 
@@ -86,9 +87,9 @@ paginate: true
 
 # The Backbone Technologies of the Web
 
-- `HTML` structures web content and assigns meaning
-- `CSS` styles web content and controls how it is displayed
-- `Javascript` amplifies web content and provides interactions
+- `HTML` structures web content and assigns meaning (noun)
+- `CSS` styles web content and controls how it is displayed (adjective)
+- `Javascript` amplifies web content and provides interactions (verb)
 
 We'll be learning all 3 during this bootcamp, starting with HTML!
 
@@ -131,6 +132,13 @@ A `closing tag` **must**:
 - start with a `</` and end with `>`
 - immediately follow the `</` with the tag's name
 - include **nothing** else
+
+---
+
+# Fail Safe vs Fail Danger
+
+- web technologies are generally `fail safe`; if there is an error, they will try to continue as best they can
+- other technologies can be fail danger; if there is an error, they will stop or abort
 
 ---
 
@@ -189,16 +197,29 @@ Pivot of heels and knees!-The furrow
 
 # Reading APIs and Guides
 
-- Technology changes so quickly that an `indisposable skill` is to know how to read an `API`
-- `API`, or *application programming interface*, is basically the user's manual for a programming language or guide
-- 
+- Technology changes so quickly that an `indisposable skill` is to know how to read an `api`
+- `api`, or *application programming interface*, is basically the user's manual for a programming language or guide
+- You can stay up to date on existing technologies and/or teach yourself new ones as they come out.
+
+---
+
+# W3Schools Tutorials and References
+
+- [W3Schools Tutorials](https://www.w3schools.com/html/default.asp) are divided into topics that each cover a handful of tags.
+- [W3Schools References](https://www.w3schools.com/tags/default.asp) has every single tag in a searchable list
+- if you know what you want to do, you can search through these guides to learn the `tags`, `syntax`, and `examples`.
+- if you have free time, you can browse through this (or any other api) in search of anything to interesting to play with. these can be incorporated into your existing projects or even spark a new project.
 
 ---
 
 # Intro to Replit Boilerplate
 
+- when starting an HTML, CSS, and JS repl, replit will give you `boilerplate` code. some of it is `necessary` and some of it is just good practice.
+- let's review it together!
+
 ---
 
-# Activity
+# Hear ye! Hear ye!
 
----
+- let's practice adding HTML tags to content so that it is rendered better by a browser
+- [fork this repl](https://replit.com/@jonchin/2023-01-03-hear-ye-hear-ye). it contains excerpts from the New York Times, but only the text. your task is to wrap the text with HTML tags to make it look more like a news website.
