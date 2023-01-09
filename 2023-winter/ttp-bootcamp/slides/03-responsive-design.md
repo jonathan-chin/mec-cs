@@ -16,7 +16,19 @@ paginate: true
 
 # Review Notes
 
-- TBD
+- `margin: auto`, styling using the `style` attribute and CSS in general
+- libraries, things we can `import` and use
+- materialize
+- replit
+- databases and servers are not the same thing
+- CDN, eg cloudfare, a server with things you can retrieve / download from
+  - content delivery network
+- `src` attribute
+- how to include other files (images) in replit
+- learning where to find tags; self directed learning; **how to think like a coder**
+- `class` is for groups of tags
+- `id` is for one specific tag
+- `tag name` is for everything
 
 ---
 
@@ -43,7 +55,7 @@ paginate: true
 - [this site](http://karenkramerfilms.com) was built without responsive design in mind
 - what are some issues you can observe?
 - **note:** you can use your web developer console to simulate different devices
-- [this is a dummy site](https://www.copterlabs.com/demo/media-queries) built to demonstrate the power of responside design
+- [this is a dummy site](https://www.copterlabs.com/demo/media-queries) built to demonstrate the power of responsive design
 - how is this experience different?
 
 ---

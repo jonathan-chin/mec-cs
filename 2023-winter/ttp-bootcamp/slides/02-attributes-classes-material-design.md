@@ -179,3 +179,25 @@ paginate: true
 ---
 
 # Lunch
+
+---
+
+# Materialize CSS Mechanics
+
+- Materialize works purely on html tags and `class` attributes
+- want a particular `component`? use the recommended tag (from the api) and mix-and-match class attributes
+- `classes` are combinatorial; you can use multiple of them to get the exact behavior you want
+
+---
+
+# Materialize Demo
+
+---
+
+# Activity
+
+- pair up with another student and brainstorm an app that you would want to make
+- don't think too hard; it can be a simple app or a clone of an existing app
+- create and share a single repl
+- using Materialize, create a `mockup` of your app!
+  - you can have multiple pages and each work on a different page
