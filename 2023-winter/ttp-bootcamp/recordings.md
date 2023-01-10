@@ -14,3 +14,7 @@ ___
 Materialize
 ### - [Morning session recording](https://us02web.zoom.us/rec/share/1MCOLsbNrNxjIp5T2S9j6ikSt7bB4wqua88o7ksGKiWQQbWLOd2xpbks3NVYZ_Vb.RDvTr3ooO_hXgv31?startTime=1672930675000) 
 ### - [Afternoon session recording](https://us02web.zoom.us/rec/share/LAIKeIzg0yL2BJjuWfpXLEeidU_kkgkNPvzeW0Ety71QDgGc2WWQOiLYYWqSc0s2.RC2ZQQYJmh4wpUSq?startTime=1672941620000)
+___
+## Day 04, Monday January 9th
+CSS
+### - [All day session recording](https://us02web.zoom.us/rec/share/n0HQZmyaMDI7l02nzubNTVLerCaXPgBUAsUqcId4dQtKW7L6HShoq9TuyQfNFwID.rL2HiistTjiHJmZ9?startTime=1673275861000)
