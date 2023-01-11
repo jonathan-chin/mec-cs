@@ -93,11 +93,12 @@ veg_2 = next(veg_iterable) # get next item
 
 # you can also use the for in syntax if you want everything
 # reset iterable
-veg_iterable = iter(vegetables)for veg in veg_iterable:
+veg_iterable = iter(vegetables)
+for veg in veg_iterable:
 	print(veg)
 ```
 
---
+---
 
 # iterators and functional programming
 ## something was wrong in the previous code sample
