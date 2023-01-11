@@ -10,14 +10,24 @@ paginate: true
 ---
 
 # Review
-## Type into chat 3 things that you learned yesterday
+## Type into chat 3 things that you learned during our last class
 
 ---
 
 # Review Notes
 
-- TBD
-
+- how to add the `grid` structure
+  - Materialize uses 12 columns
+  - content on each row must be <= 12
+  - beyond 12, content will be forced to next row
+- how to change colors with Materialize CSS
+- how to make HTML `responsive`
+  - resize according to device size (and capabilities)
+  - uses `breakpoints`
+  - `breakpoints` are preset points that change layout
+  - Materialize uses `s, m, l, xl`
+- alignment (left, right, center)
+- changing font size
 ---
 
 # Fine Grain Visual Control
@@ -44,12 +54,12 @@ paginate: true
 
 # CSS General Syntax
 
-- CSS is broken down into 2 parts: `selector` and `rule block`
+- CSS is broken down into 2 parts: `selector` and `rule`
 - `selector` identifies which elements on the page are being styled
-- `rule block` is a collection of `rules` that define how those elements should appear
-- `inline styling` will **only** include the `rules`, not the selector or rule block
+- `rule` is a collection of `properties` that define how those elements should appear
+- `inline styling` will **only** include the `properties`, not the selector or rule
   - will only apply to that element, hence why it's hard to maintain
-- both `<style>` and external files will use `selectors` and `rule blocks`
+- both `<style>` and external files will use `selectors` and `rules`
 
 ---
 
@@ -82,11 +92,11 @@ img                     /* all <img> elements */
 
 ---
 
-# CSS Rules and Rule Blocks Syntax
+# CSS Properties and Rule Blocks Syntax
 
-- a CSS rule has the general syntax: `rule_name: value;`
-- a CSS rule block is simply several rules wrapped with `{}`
-- note: there are more advanced features of CSS rules that require different syntax
+- a CSS property has the general syntax: `property_name: value;`
+- a CSS rule is simply several properties wrapped with `{}`
+- note: there are more advanced features of CSS properties that require different syntax
 
 ---
 
