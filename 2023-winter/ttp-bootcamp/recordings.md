@@ -18,3 +18,7 @@ ___
 ## Day 04, Monday January 9th
 CSS
 ### - [All day session recording](https://us02web.zoom.us/rec/share/n0HQZmyaMDI7l02nzubNTVLerCaXPgBUAsUqcId4dQtKW7L6HShoq9TuyQfNFwID.rL2HiistTjiHJmZ9?startTime=1673275861000)
+___
+## Day 05, Tuesday January 10th
+CSS
+### - [All day session recording](https://us02web.zoom.us/rec/share/vn1xaNlL_IB87fAWVAmJifEja067gVLJ5t9i907tUYaid8dMSlEUJf9lyzXG1qm_.z_jizmmiGyZHSFaW?startTime=1673362674000)
