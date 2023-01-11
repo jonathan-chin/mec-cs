@@ -16,7 +16,13 @@ paginate: true
 
 # Review Notes
 
-- TBD
+- animation in CSS
+  - `@keyframes` can be created and used with any element
+- flexbox - a layout template using CSS
+- using references / APIs
+- `display`
+- common pattern - use `position: absolute` and `position: relative` together
+
 
 ---
 
@@ -151,7 +157,7 @@ paginate: true
 # The black sheep
 
 - CSS also has a `!important` keyword that elevates the priority of a definition
-  - eg: `font-color: red !important;`
+  - eg: `color: red !important;`
 - any `!important` definition overrides any non `!important` definition
 - however! many developers avoid it at all costs
   - makes it very hard to debug; have to search through all CSS rules
@@ -194,7 +200,7 @@ paginate: true
 - [MDN Web Docs on conflict resolution](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
 - [MDN Web Docs on cascade](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade)
 - [MDN Web Docs on specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
-- [MDN Web Docs on inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance~)
+- [MDN Web Docs on inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance)
 - [MDN Web Docs Test Your Skills: The Cascade](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_tasks)
 
 ---
