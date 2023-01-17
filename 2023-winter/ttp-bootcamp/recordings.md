@@ -22,3 +22,7 @@ ___
 ## Day 05, Tuesday January 10th
 CSS
 ### - [All day session recording](https://us02web.zoom.us/rec/share/vn1xaNlL_IB87fAWVAmJifEja067gVLJ5t9i907tUYaid8dMSlEUJf9lyzXG1qm_.z_jizmmiGyZHSFaW?startTime=1673362674000)
+___
+## Day 06, Wednesday January 11th
+CSS
+### - [All day session recording](https://us02web.zoom.us/rec/share/2OE_9jsS0n3MQZYn5sncYf_bq6iIM93v094diL56u6MNm-Fh9JEzwN0VTgNJAlSD.Z5iXrXl9SmjPBE50?startTime=1673448835000)
