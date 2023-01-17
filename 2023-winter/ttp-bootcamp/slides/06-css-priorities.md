@@ -4,7 +4,7 @@ class: invert
 paginate: true
 ---
 
-# 05 - CSS Priority Rules
+# 06 - CSS Priority Rules
 2023-01-11
 
 ---

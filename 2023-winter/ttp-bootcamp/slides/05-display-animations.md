@@ -4,7 +4,7 @@ class: invert
 paginate: true
 ---
 
-# 04 - Display Property and Animations in CSS
+# 05 - Display Property and Animations in CSS
 2023-01-10
 
 ---
