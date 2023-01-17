@@ -16,7 +16,14 @@ paginate: true
 
 # Review Notes
 
-- TBD
+- `calc()` allows CSS to do math
+  - ex: `calc(100% - 10px)`
+- CSS units like `px` and `rem`
+- `rem` is the number of units, each equal to the current font size
+  - ex: `2rem` is twice the current font size
+- `z-index` for placing elements over each other
+- preprocessors in CSS; make writing CSS easier
+- `absolute` vs `relative` units in CSS
 
 ---
 
@@ -84,10 +91,10 @@ const largest = find_larger(5, 10);
 
 # IO 2/2
 
-- `window.prompt(variable)` is like `alert()` in that it will halt interaction
+- `window.prompt(message)` is like `alert()` in that it will halt interaction
   - will ask user for input and store in variable
   - rarely if ever used in production ready code
-- `window.confirm()` is like `alert()` in that it will halt interaction
+- `window.confirm(message)` is like `alert()` in that it will halt interaction
   - gives an ok and cancel button
   - returns true if ok is pressed, otherwise returns false
   - uncommon in production ready code; more common than `window.prompt()`
@@ -102,6 +109,13 @@ const largest = find_larger(5, 10);
   - can also use `inline JS` by placing JS code between opening and closing tags
 - generally, JS is `executed immediately` as soon as the `<script>` is loaded
   - can cause timing issues if you're not careful
+
+---
+
+# JS is Fail Safe
+
+- if a JS error is encounter, browser will try to execute the rest of the code as best it can
+- does not throw halting errors like C++ compile errors
 
 ---
 
