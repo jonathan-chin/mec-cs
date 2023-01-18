@@ -26,3 +26,11 @@ ___
 ## Day 06, Wednesday January 11th
 CSS
 ### - [All day session recording](https://us02web.zoom.us/rec/share/2OE_9jsS0n3MQZYn5sncYf_bq6iIM93v094diL56u6MNm-Fh9JEzwN0VTgNJAlSD.Z5iXrXl9SmjPBE50?startTime=1673448835000)
+___
+## Day 07, Thursday January 12th
+CSS - transforms & Animations
+### - [All day session recording](https://us02web.zoom.us/rec/share/LRjY4mCRt0KoIiMWCAMknEuVHyzWmVlSkuwnGF_Kj_kJpBut43xnXE0JWoaqf8j6.uQeeC9JHUpuUzfQi?startTime=1673535775000)
+___
+## Day 08, Tuesday January 17th
+Javascript & JQuery
+### - [All day session recording](https://us02web.zoom.us/rec/share/nO_k6QW5YibeVCF-gqEItETV9S9f5CeX0tsW_o4vO4h_du64SRauyUtmR4l5bME5.qHo4My9uV0wSoE0q?startTime=1673968397000)
