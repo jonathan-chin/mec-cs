@@ -44,3 +44,8 @@ ___
 More Javascript & JQuery
 ### - [Morning session recording](https://us02web.zoom.us/rec/share/KibL6NqN2khTMExONJd5_nAw_7oPIxUpTPSOnswwE55NG01bZUTInwFPdGBsYOBs.mUCLhM20z-bH5J5K?startTime=1674140031000)
 ### - [Afternoon session recording](https://us02web.zoom.us/rec/share/CMN4WVIiMzCjdI0bf-AsEccHcHgFRfNdrKF7fo5JMS8kG-C_H7kb6OiyZW4qyxcF.pwi4Pb70bm_chk5c?startTime=1674158091000)
+___
+## Day 11, Monday January 23rd
+More Javascript & JQuery
+### - [Morning session recording](https://us02web.zoom.us/rec/share/ce7CNl1GM3-KI-VFf_CM-04kaBMQqgzjzYVfPmPCPU7PfXCosdGeYT_eXhJbIqsI.RR-M33UayjsED6Q8?startTime=1674485919000)
+### - Afternoon session not recorded (lab session)
