@@ -39,3 +39,8 @@ ___
 Materialize with JQuery
 ### - [Morning session recording](https://us02web.zoom.us/rec/share/fUFHSgFu_cbvm5T4wMuxj-a2qj9uwUQcr8jqz3CyGJNs0hFd0Dr0jerFOG_Wy9m7.fapUriH4rpioV2f-?startTime=1674054606000)
 ### - [Afternoon session recording](https://us02web.zoom.us/rec/share/Hd5gpelaQQAhfXzCBql8_t6Aa3PPATDcGZbKkaUIfU_VAfv6tkIdMeXS2LwBaNEM._jsXIBzbRvj4BBS0?startTime=1674065449000)
+___
+## Day 10, Thursday January 19th
+More Javascript & JQuery
+### - [Morning session recording](https://us02web.zoom.us/rec/share/KibL6NqN2khTMExONJd5_nAw_7oPIxUpTPSOnswwE55NG01bZUTInwFPdGBsYOBs.mUCLhM20z-bH5J5K?startTime=1674140031000)
+### - [Afternoon session recording](https://us02web.zoom.us/rec/share/CMN4WVIiMzCjdI0bf-AsEccHcHgFRfNdrKF7fo5JMS8kG-C_H7kb6OiyZW4qyxcF.pwi4Pb70bm_chk5c?startTime=1674158091000)
