@@ -26,3 +26,21 @@ ___
 ## Day 06, Wednesday January 11th
 CSS
 ### - [All day session recording](https://us02web.zoom.us/rec/share/2OE_9jsS0n3MQZYn5sncYf_bq6iIM93v094diL56u6MNm-Fh9JEzwN0VTgNJAlSD.Z5iXrXl9SmjPBE50?startTime=1673448835000)
+___
+## Day 07, Thursday January 12th
+CSS - transforms and animations
+### - [All day session recording](https://us02web.zoom.us/rec/share/DOHvcdSo6CreMNBHqku-fAwMFXRWZuNQzLjdGhuxmVx7XhIrpB8KbtLXPv0qdsqm.E7ZhQqh685C1n9Uo?startTime=1673535775000)
+___
+## Day 08, Tuesday January 17th
+Javascript & JQuery
+### - [All day session recording](https://us02web.zoom.us/rec/share/nO_k6QW5YibeVCF-gqEItETV9S9f5CeX0tsW_o4vO4h_du64SRauyUtmR4l5bME5.qHo4My9uV0wSoE0q?startTime=1673968397000)
+___
+## Day 09, Wednesday January 18th
+Materialize with JQuery
+### - [Morning session recording](https://us02web.zoom.us/rec/share/fUFHSgFu_cbvm5T4wMuxj-a2qj9uwUQcr8jqz3CyGJNs0hFd0Dr0jerFOG_Wy9m7.fapUriH4rpioV2f-?startTime=1674054606000)
+### - [Afternoon session recording](https://us02web.zoom.us/rec/share/Hd5gpelaQQAhfXzCBql8_t6Aa3PPATDcGZbKkaUIfU_VAfv6tkIdMeXS2LwBaNEM._jsXIBzbRvj4BBS0?startTime=1674065449000)
+___
+## Day 10, Thursday January 19th
+More Javascript & JQuery
+### - [Morning session recording](https://us02web.zoom.us/rec/share/KibL6NqN2khTMExONJd5_nAw_7oPIxUpTPSOnswwE55NG01bZUTInwFPdGBsYOBs.mUCLhM20z-bH5J5K?startTime=1674140031000)
+### - [Afternoon session recording](https://us02web.zoom.us/rec/share/CMN4WVIiMzCjdI0bf-AsEccHcHgFRfNdrKF7fo5JMS8kG-C_H7kb6OiyZW4qyxcF.pwi4Pb70bm_chk5c?startTime=1674158091000)
