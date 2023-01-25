@@ -1,0 +1,26 @@
+version: '3.7'
+
+services:   
+  postgres:
+    container_name: cs281_postgres
+    environment:
+      POSTGRES_USER: CHOOSE_A_USERNAME
+      POSTGRES_PASSWORD: CHOOSE_A_PASSWORD
+      POSTGRES_DB: cs281
+    ports:
+      - 5432:5432
+    image: postgres:14.1-alpine
+    restart: unless-stopped
+    volumes:
+      - db:/var/lib/postgresql/data
+  adminer:
+    container_name: cs281_adminer
+    environment:
+      - ADMINER_DEFAULT_SERVER=postgres
+    image: adminer
+    ports:
+      - 8080:8080
+
+volumes:
+  db:
+    driver: local
