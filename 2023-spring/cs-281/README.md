@@ -2,7 +2,7 @@ Medgar Evers College of CUNY
 Department of Physical, Environmental, and Computer Sciences  
 Course Syllabus
 
-# CS 181 - Database Systems
+# CS 281 - Database Systems
 
 ## Course Details
 Instructor: Jon Chin, email TBD
