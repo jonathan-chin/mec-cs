@@ -6,7 +6,6 @@ paginate: true
 # 12 - Looping and Functions
 2022-10-29
 
-
 ---
 
 # Review
@@ -117,14 +116,43 @@ char get_first_letter(string word){
 
 ---
 
-# Function Prototypes
+# Function Prototypes 1/3
 
 - `functions` MUST be defined before they are called
 - some file structures prevent you from doing this
   - usually happens when your program is multiple files
-- `function prototypes` are .......
+- `function prototypes` allow us to describe a function before it's used
+  - allows the compiler to check if code is valid
 
+---
 
+# Function Prototypes 2/3
+
+```
+return_type function_name(argument_type_1, argument_type_2 ...);
+```
+
+- notice:
+  - no argument names needed
+  - no code block needed
+  - protoype ends with a `;`
+  - argument types need to be in the same order as in function definition
+
+---
+
+# Function Prototypes 3/3
+
+```
+double get_half(int);
+
+int main(){
+	cout << get_half(7);
+}
+
+double get_half(int number){
+	return number / 2.0; // use 2.0 to force type conversion to double
+}
+```
 ---
 
 # Variable Scope
@@ -134,3 +162,7 @@ char get_first_letter(string word){
   - this includes when a variable is passed into `arguments`
 - `variables` in different `functions` are (usually) unconnected and separate
   - textbook calls this `pass by value`
+
+---
+
+# Coding Lab

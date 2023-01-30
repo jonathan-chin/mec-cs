@@ -7,6 +7,14 @@ paginate: true
 2022-10-15
 
 ---
+
+# Review
+
+- `typecasting` converting a variable from one type to another
+  - "98" converting to 98
+  - '9' converting to 9
+
+---
 # Comparing characters and strings 1/4
 
 - the comparators in C++ are `overloaded`, meaning they can be applied to different 

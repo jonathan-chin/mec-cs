@@ -1,6 +1,5 @@
 ---
 theme: default
-class: invert
 paginate: true
 ---
 

@@ -1,4 +1,4 @@
-# splat exampleOA
+# splat example
 
 countries = ('Angola', 'Bhutan', 'Canada', 'Denmark', 'England')
 (*other_countries, e) = countries

@@ -47,6 +47,8 @@ paginate: true
 - Allows specialization. The partners can have different strengths and weaknesses but play off each other.
   - For example, if a program is to be written in `C++`, the navigator doesn't need to know the language and instead rely on the driver
 
+---
+
 ## Cons
 - Can take longer. 2 people are being used to solve 1 problem.
   - However, the resulting code tends to be **stronger**.

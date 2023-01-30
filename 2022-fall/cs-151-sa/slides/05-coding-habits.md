@@ -203,6 +203,15 @@ int main(){ // first function to run
 }
 ```
 
+---
+
+# When to Write a Function
+
+1. If you're ever repeating the same lines of code 2 or more times, use a function.
+2. If you're sharing the code base with other programmers, using functions lets you share responsibility.
+3. When calculations get complicated, you can use a function to make your code more readable.
+
+
 
 ---
 
