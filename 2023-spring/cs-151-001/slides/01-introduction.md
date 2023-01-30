@@ -1,6 +1,5 @@
 ---
 theme: default
-class: invert
 paginate: true
 ---
 
@@ -49,6 +48,16 @@ paginate: true
 
 # Cognitive model of a computer
 ## If you had to explain what a computer is, what would you say?
+
+---
+
+- a machine that stores data and displays data
+- a machine that can process data
+- takes in information, allows it to be readable by other means
+- processing is taking in input, compile it, and print it out
+- computer shows it to you
+- compiling is taking a language and putting into machine language
+- taking a lot of information and putting it into one spot
 
 ---
 
