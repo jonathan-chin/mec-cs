@@ -11,18 +11,6 @@ paginate: true
 # Review
 ## What is 1 thing you remember from our last class?
 
-- what is a computer
-- process and store data
-- input, transformation, output
-- take in inputs
-  - eg: keyboard, mouse, voice, etc
-- replit - online development environment
-  - development environment - all the tools we need to write / develop code
-- syllabus / class structure
-- differences between computer languages and human language
-- github - cloud service to share / version code
-
-
 ---
 
 # Keywords
