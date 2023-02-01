@@ -11,6 +11,21 @@ paginate: true
 # Review
 ## What is 1 thing you remember from our last class?
 
+- io (input/output)
+- what is a computer?
+- 3 stage model
+  - input
+  - process / transform
+  - output
+- examined errors
+  - replit pointed out the error
+- using replit to submit our work
+- replit is our development environment
+- an integrated development environment is all the tools we need to build a particular project
+- English (human or natural) syntax vs machine syntax
+  - machines / compilers are more sensitive to errors
+- forking is making a copy of code
+
 ---
 
 # Keywords
