@@ -11,6 +11,25 @@ paginate: true
 # Review
 ## What is 1 thing you remember from our last class?
 
+- std::cout and std::cin
+  - std::cout for output and std::cin for input (keyboard)
+- variable types - define your variables
+  - double - numbers with a decimal
+  - float - numbers with a decimal
+  - int - whole number / integer
+  - bool
+  - char
+  - string
+- variable name rules
+  - can only contain letters, numbers, underscores
+  - cannot use keywords
+    - be careful: cannot use double but you can use Double
+  - cannot start with a number
+- `int main()` - the primary function that automatically gets run each time
+- `#include <iostream>` - preprocessor directive that copies and pastes the library (iostream)
+- `using namespace std` - allows a shortcut so we can leave out `std::`
+  -  best practice to not use
+
 ---
 
 # Using your IDE
