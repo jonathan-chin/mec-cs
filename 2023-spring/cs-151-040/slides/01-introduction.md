@@ -52,6 +52,17 @@ paginate: true
 
 ---
 
+- a device working with information
+- a machine that is designed to make human's lives easier in terms of programming
+- a machine that reads, runs, and returns code in a visual format
+- a device limited by a coder's imagination
+- run - meaning to make code that's been read work, return is output
+- working as in processing functions and inputs. giving visual or functional feedback
+- a computer receives information usually in binary for, and is able to use this infomration to complete sequences and give data back
+
+
+---
+
 # io
 
 - the core of computer programs is in a simple 3 step process:
