@@ -12,6 +12,24 @@ paginate: true
 # Review
 ## What is 1 thing you remember from our last class?
 
+- intro to different kinds of errors
+- syntax errors fail on compile and the compiler tells you where the error is
+- practice problems
+  - proper use of declarations
+  - when to use doubles, ints, floats, etc
+  - doubles are for numerical with decimals
+  - ints are for whole numbers
+  - floats do what doubles do but with less memory
+    - floats cannot achieve the same level of accuracy as doubles
+  
+- using your `IDE`
+  - `autocompletion` - suggestions of all possible / probable next things for you to type
+    - helps to predict the code
+	- to avoid syntax errors
+  - `tooltips` - relevant snippets of the `API` as you type
+  - `syntax highlighting` - showing parts of code in different colors to represent what they mean
+- compiler will show errors (file, line number, and reason) for any compile errors
+
 ---
 
 # Comments 1/4
@@ -177,7 +195,7 @@ Welcome to the tip calculator!
 Enter the bill amount and I will tell you how much a 20% tip is
 
 Bill: 100
-Tip should be 120
+Tip should be 20
 
 Bill: 373.26
 Tip should be 74.652
@@ -194,7 +212,7 @@ Tip should be 74.652
 - analogy example: what could be wrong with this recipe ingredients list?
 
 ```
-2-3 medium ripe bananas
+2 medium ripe bananas
 1/3 cup butter
 1/2 tsp baking soda
 3/4 cup sugar
