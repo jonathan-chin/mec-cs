@@ -11,6 +11,23 @@ paginate: true
 # Review
 ## What is 1 thing you remember from our last class?
 
+- exercises
+- different kinds of datatypes
+  - int, float, double
+  - `double` is used with decimals (uses more memory)
+  - `int` is for whole numbers
+  - `float` is used with decimals (uses less memory)
+- using IDE
+  - `tooltip` - hover over and shows you snippet of the API
+  - `compile error` - tells you file, line number, column number, what the error is, sometimes how to fix it
+  - `syntax highlighting` - IDE will use different colors to indicate different parts of code
+  - `autocompletion` - guessing / giving what you probably need
+
+
+
+
+
+
 ---
 
 # Comments 1/4
@@ -176,7 +193,7 @@ Welcome to the tip calculator!
 Enter the bill amount and I will tell you how much a 20% tip is
 
 Bill: 100
-Tip should be 120
+Tip should be 20
 
 Bill: 373.26
 Tip should be 74.652
