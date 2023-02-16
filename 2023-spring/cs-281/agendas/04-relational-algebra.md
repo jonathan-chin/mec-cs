@@ -3,7 +3,8 @@
 
 ---
 
-1. [Twitch channel](https://www.twitch.tv/sharemeals)
+1. [Twitch channel](https://www.twitch.tv/sharemeals)  
+HackPrinceton
 2. review
 3. SQL vs NoSQL real world example
 4. generated ERD
@@ -13,6 +14,18 @@
 
 # Review
 ## name one thing you remember from our last class
+
+- ERD - able to understand relationships between tables
+- different kinds relationships
+  - one-to-one
+  - one-to-many
+  - many-to-one
+  - many-to-many
+- cheat sheets!
+- join tables not directly linked needs several join
+- `join table_2 on table_1.attr = table_2.attr`
+- `cartesian product` - display of every possible combination of 2 tables
+- `natural join` - `join` without having to specify `on` so long as there are matching attribute names
 
 ---
 

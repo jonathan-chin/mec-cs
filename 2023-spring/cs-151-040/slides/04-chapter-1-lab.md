@@ -11,24 +11,31 @@ paginate: true
 # Review
 ## What is 1 thing you remember from our last class?
 
-- std::cout and std::cin
-  - std::cout for output and std::cin for input (keyboard)
-- variable types - define your variables
-  - double - numbers with a decimal
-  - float - numbers with a decimal
-  - int - whole number / integer
-  - bool
+- correct / incorrect variable names
+  - no white space
+- declaring variables
+  - let the compiler know that you will be using some data
+  - computer will set aside space in memory
+  - `variable_type variable_name;`
+  - examples: `int age;`
+- variable types - determine what kind of data we have and how we can manipulate it
+  - int
+  - double
   - char
+  - bool
+  - float
+  - void
   - string
-- variable name rules
-  - can only contain letters, numbers, underscores
-  - cannot use keywords
-    - be careful: cannot use double but you can use Double
-  - cannot start with a number
-- `int main()` - the primary function that automatically gets run each time
-- `#include <iostream>` - preprocessor directive that copies and pastes the library (iostream)
-- `using namespace std` - allows a shortcut so we can leave out `std::`
-  -  best practice to not use
+- variable assignment - give a variable a value
+  - uses the `=`
+  - example: `age = 35;`
+  - sometimes combined with declaring: `int age = 35;`
+- tracing a program
+  - thinking like the computer using pen and paper; helps with debugging
+  - used to see the `memory state` at any particular point in the program
+- user input
+  - using `std::cin`
+  
 
 ---
 

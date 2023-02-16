@@ -14,6 +14,21 @@
 # Review
 ## name one thing you remember from our last class
 
+- relational algebra operations
+  - projection - some attributes but not all (maybe)
+  - cartesian product - all possible combinations of 2 relations
+  - union - all tuples from 2 relations
+  - set difference - all tuples that are present in the 1st relation that are not present in the 2nd relation
+  - selection - some tuples but not all (maybe)
+  - rename - give another way to refer to a attribute / relation
+
+- example of SQL vs NoSQL
+  - NoSQL has no enforced relationships
+  - can generate inconsistancies
+  - good for data that is dirty
+
+  
+  
 ---
 
 # Physical Layer Isolation

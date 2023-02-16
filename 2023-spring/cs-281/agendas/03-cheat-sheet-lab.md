@@ -64,3 +64,9 @@ JOIN student
 	on takes.ID = student.ID
 WHERE title = "Genetics"
 ```
+
+4. Find all students who are taking courses in 2018 and later
+
+SELECT * FROM takes
+NATURAL JOIN student
+WHERE year >= 2018;
