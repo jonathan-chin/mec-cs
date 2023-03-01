@@ -22,7 +22,7 @@ paginate: true
 double meter = 3.5;
 double feet_no_const = meter * 3.28084;
 // or
-const METER_TO_FEET = 3.28084;
+const double METER_TO_FEET = 3.28084;
 double feet_with_const = meter * METER_TO_FEET;
 ```
 
@@ -70,9 +70,9 @@ std::cout
 
 # left and right
 
-- `std::setw()` normally **right pads** or **right justifies** your variable
+- `std::setw()` normally **left pads** or **right justifies** your variable
 - it will add extra spaces on the left side
-- to change that behavior, you can use `std::left` to **left pad**
+- to change that behavior, you can use `std::left` to **right pad**
 - once set, it will affect all the following `std::cout`; you can use `std::right` to change behavior
 
 ---
