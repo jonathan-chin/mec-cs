@@ -171,7 +171,7 @@ if(choice == 'a'){
 - new keywords: `switch`, `case`, `default`, and `break`
 
 ```
-string choice = 'a';
+char choice = 'b';
 switch(choice){
 	case 'a': // execute if choice == 'a'
 		// do something

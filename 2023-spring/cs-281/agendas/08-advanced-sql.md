@@ -3,8 +3,9 @@
 
 ---
 
-1. midterm
-2. begin pivot away from textbook
-  1. create our own databases
-  2. postgres and pgadmin
-3. slides
+- midterm
+- begin pivot away from textbook
+  - create / design our own databases
+  - practice with previous concepts
+  - postgres and pgadmin
+- slides
