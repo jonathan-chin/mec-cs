@@ -90,7 +90,7 @@ double force = mass * gravity;
 
 ---
 
-# Truncated Values 2/2
+# Truncated Values 1/2
 
 - `int`, `float`, and `double` have the different levels of precision (smallest to largest)
 - when mixing them in calculations, be careful `which` ones you use and in what `order`

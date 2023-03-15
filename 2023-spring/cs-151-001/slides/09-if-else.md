@@ -4,7 +4,7 @@ paginate: true
 ---
 
 # 09 - If Else
-2022-10-17
+2023-03-15
 
 ---
 
@@ -23,7 +23,6 @@ paginate: true
 - computers follow instructions from top to bottom, first to last line
 - ... most of the time. there are special `control structures` that allow a computer to jump around
 - regardless, a computer can `only ever look at one statement at a time`. `control flow` simply determines which statement is next.
-- you've seen one `control structure` already: functions
 
 ---
 
@@ -64,7 +63,7 @@ if(this_is_true == true){
 
 if(this_is_true == true)
   cout << "This line will execute if true\n";
-cout << "This line will always execute, regardless of true or false\.";
+cout << "This line will always execute, regardless of true or false\n.";
 ```
 
 ---
