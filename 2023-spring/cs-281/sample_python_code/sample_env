@@ -1,0 +1,5 @@
+POSTGRES_DATABASE=some_database
+POSTGRES_USERNAME=username
+POSTGRES_PASSWORD=not_fake_password
+POSTGRES_HOST=some_server@somewhere
+POSTGRES_PORT=5432
