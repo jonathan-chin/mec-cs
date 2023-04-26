@@ -123,8 +123,8 @@ do{
 # Do While Loop and Input Validation
 
 - `input validation` is checking that user input is valid, ie free from error
-- also called `error checking` and just plain `validation`
-- `while` loop can repeatedly ask user for input until valid data is given
+- also called `error checking` or `sanitizing` or just plain `validation`
+- `do-while` loop can repeatedly ask user for input until valid data is given
 
 ---
 
