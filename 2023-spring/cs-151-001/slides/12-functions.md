@@ -51,10 +51,6 @@ char get_first_letter(string word){
 
 ---
 
-![bg contain](function_control_flow.png)
-
----
-
 # Function Prototypes 1/3
 
 - `functions` MUST be defined before they are called
