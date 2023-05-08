@@ -38,3 +38,5 @@ in total:
 
 
 * note: you can have other `python` files such as `reset.py` included as well, if you want to.
+
+* note 2: if you are export SQL code from pgadmin, you might need to modify / rearrange the statements to avoid conflicts with constraints
