@@ -15,11 +15,7 @@ connection = psycopg2.connect(
 
 cursor = connection.cursor();
 
-cursor.execute("SELECT * FROM players");
-players = cursor.fetchall();
-print(players);
-
-with open('data.csv', newline='') as csvfile:
+with open('./data/players.csv', newline='') as csvfile:
     data_reader = csv.DictReader(csvfile);
     for row in data_reader:
         cursor.execute(f"""INSERT INTO
@@ -30,9 +26,40 @@ with open('data.csv', newline='') as csvfile:
         )""");
     connection.commit();
 
-cursor.execute("SELECT * FROM players");
-players = cursor.fetchall();
-print(players);
+with open('./data/matches.csv', newline='') as csvfile:
+    data_reader = csv.DictReader(csvfile);
+    for row in data_reader:
+        cursor.execute(f"""INSERT INTO
+        matches VALUES(
+        '{row['which_won']}',
+        '{row['stage']}',
+        '{row['player_1_character']}',
+        '{row['player_1_id']}',
+        '{row['player_2_character']}',
+        '{row['player_2_id']}',
+        '{row['which_loss']}',
+        '{row['duration']}',
+        '{row['out_of_bounds']}',
+        '{row['id']}',
+        '{row['bracket']}'
+        )""");
+    connection.commit();
+
+with open('./data/private_player_contact_info.csv', newline='') as csvfile:
+    data_reader = csv.DictReader(csvfile);
+    for row in data_reader:
+        cursor.execute(f"""INSERT INTO
+        private_player_contact_info VALUES(
+        '{row['email_address']}',
+        '{row['id']}',
+        '{row['is_over_18']}'
+        )""");
+    connection.commit();
+
+# debug code
+#cursor.execute("SELECT * FROM players");
+#players = cursor.fetchall();
+#print(players);
 
 cursor.close();
 connection.close();
