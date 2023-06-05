@@ -83,7 +83,7 @@
 
 - `HTML` (HyperText Markup Language) structures web content and assigns meaning
 - `CSS` (Cascading Stylesheets) styles web content and controls how it is displayed
-- `Javascript` (Javascript) amplifies web content and provides interactions
+- `JS` (Javascript) amplifies web content and provides interactions
 
 We'll be learning all 3 during this bootcamp, starting with HTML!
 
@@ -98,7 +98,7 @@ We'll be learning all 3 during this bootcamp, starting with HTML!
 
 ---
 
-# Early Lunch Break
+# Lunch Break
 
 ---
 
@@ -142,7 +142,7 @@ A `closing tag` **must**:
 
 ---
 
-# Fail Safe vs Fail Danger
+# Fail Tolerant vs Fail Strict
 
 - web technologies are generally `fail tolerant`; if there is an error, they will try to continue as best they can
 - other technologies can be `fail strict`; if there is an error, they will stop or abort. languages like C++ are `fail strict`

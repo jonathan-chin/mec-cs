@@ -6,6 +6,10 @@
 # Review
 Type into chat 1 thing you learned during our last class
 
+- HTML tags: used to define the structure and contents
+- how to create tags: `<h1></h1>`
+  - matching opening and closing tags
+- how to break a line: `<br />`
 ---
 
 # Self Closing Tags
@@ -51,13 +55,13 @@ Type into chat 1 thing you learned during our last class
 <ol>
   <li>
     <strong>
-		Hello
-	</strong>
-	<p>
-		World!
-		<br />
-		Good Morning!
-	</p>
+      Hello
+    </strong>
+    <p>
+      World!
+      <br />
+      Good Morning!
+    </p>
   </li>
 </ol>
 ```
@@ -131,7 +135,7 @@ is this HTML valid or invalid?
 
 - attributes can only appear in an opening tag (or in a self closing tag)
 - attributes take the form of `key="value"`
-- no limits on how many attributes a tag can have, but only certain tags have meaning
+- no limits on how many attributes a tag can have, but only certain attributes have meaning
 
 ---
 
@@ -182,6 +186,13 @@ An HTML page has certain required tags and structures
 
 ---
 
+# Pro tips and tricks
+
+- run your code as often as possible
+- don't worry about memorizing everything!
+
+---
+
 # Pause for Questions
 
 ---
@@ -195,4 +206,4 @@ An HTML page has certain required tags and structures
 ---
 
 # Coding Lab
-## Choose Your Own Adventure
+## [Choose Your Own Adventure](https://replit.com/@jonchin/TTP-2023-Summer-Choose-Your-Own-Adventure)
