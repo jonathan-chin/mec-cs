@@ -6,12 +6,19 @@
 # Review
 Type into chat 1 thing you learned during our last class
 
+- how to input photos and gifs
+- how to add images
+  - `<img src="url_goes_here" />`
+- add `width` attribute to img
+- attributes
+- how to change the background and text color
+
 ---
 
 # URLs
 
 - Uniform Resource Locator
-- used to indicate where a file is located
+- used to indicate where a file is stored
 - can be on the same server and needs a `relative` url
   - url **does not** start with `http://` or `https://`
 - can be on a different server and needs an `absolute` url
@@ -40,7 +47,7 @@ Type into chat 1 thing you learned during our last class
 # Forms
 
 - HTML is used for both output (images, text) and input (textboxes, file uploads, etc)
-- 
+- for input, we use forms
 
 ---
 
@@ -72,19 +79,19 @@ Type into chat 1 thing you learned during our last class
 <form action="check_credentials.php">
   <input
     type="text"
-	id="username"
-	name="username"
-	/>
+    id="username"
+    name="username"
+    />
   <label for="username">
-	Username
+    Username
   </label>
   <input
     type="password"
-	id="password"
-	name="password"
-	/>
+    id="password"
+    name="password"
+    />
   <label for="password">
-	Password
+    Password
   </label>
   <button type="submit">
     Login
@@ -115,10 +122,6 @@ Type into chat 1 thing you learned during our last class
 ---
 
 # Pause for Questions
-
----
-
-# Live Coding Demo
 
 ---
 
