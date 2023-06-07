@@ -1,15 +1,25 @@
 # TTP Web Development Bootcamp Summer 2023
-## 04 - Intro to CSS and class and id Atributes
+## 04 - Intro to CSS and class and id Attributes
 
 ---
 
 # Review
 Type into chat 1 thing you learned during our last class
 
+- how to implement music
+- how to add color
+- how to add emojis
+  - eg: `&#12345;`
+- how to add color to a dropdown
+- how to format text (headings, emphasis, etc)
+- how to do multiselect
+- relative and absolute urls, servers
+
 ---
 
 # CSS
 
+- Cascading Style Sheets
 - control how tags look and feel on the page
   - eg: color, size, shape, placement, opacity, etc
 - made specifically to work with HTML; CSS code by itself is useless
@@ -53,7 +63,6 @@ p {
 a {color: purple}
 p {padding: 10px}
 img {border-radius: 3%}
-
 ```
 
 - here, `a`, `p`, and `img` are selectors
@@ -68,6 +77,7 @@ img {border-radius: 3%}
 - you can use the `id` attribute
 - in HTML, add a **unique** value for the id attribute
 - in CSS, use that same value with a `#` as the selector
+- mnemonic - use `#` like an id number
 
 ---
 
@@ -78,7 +88,7 @@ img {border-radius: 3%}
 <p>dolor sit amet</p>
 
 #summary {
-  font-weight: bold
+  font-weight: bold;
 }
 
 ```
@@ -99,15 +109,22 @@ img {border-radius: 3%}
 # CSS and class Example
 
 ```
-<p id="summary">ipsum lorem</p>
-<p>dolor sit amet</p>
+<img src="..." class="profile active" />
+<img src="..." class="profile inactive" />
 
-#summary {
-  font-weight: bold
-}
-
+.profile {width: 50px; height: 50px;}
+.active {border: 1px solid green;}
+.inactive {opacity: 0.5;}
 ```
 
+---
+
+# Summary
+
+- `id` is used for exactly 1 element on the page
+- similar to a person's social security number
+- `class` is used for groups of elements on the page
+- similar to people's favorite movies
 
 ---
 
@@ -181,8 +198,9 @@ img {border-radius: 3%}
 
 ---
 
-# Live Coding Demo
+# Lunch
 
 ---
 
-# Lunch
+# Coding Lab
+## [The Max's Menu](https://replit.com/@jonchin/04-The-Maxs-Menu)
