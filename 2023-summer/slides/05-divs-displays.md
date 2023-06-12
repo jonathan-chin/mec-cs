@@ -91,8 +91,17 @@ Type into chat 1 thing you learned during our last class
 ---
 
 # Live Coding Demo
-[on replit]()
+[on replit](https://replit.com/@jonchin/2023-06-08-CSS-display-property-example)
 
 ---
 
 # Lunch
+
+---
+
+# Lab
+## The Max's Menu Continued
+
+- please create a `fork` of your previous lab
+- the old fork will demonstrate your initial knowledge
+- the new fork will demonstrate the knowledge you gained

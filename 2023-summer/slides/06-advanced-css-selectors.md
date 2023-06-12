@@ -6,10 +6,19 @@
 # Review 1/2
 Type into chat 1 thing you learned during our last class
 
+- adding shadows to text
+  - `text-shadow: 5px -10px gray`
+- creating buttons and box shadows
+  - `box-shadow: 10px 10px yellow`
+- learning about spacing and placing images in a specific area
+  - `padding-left: 50%`
+
 ---
 
 # Review 2/2
 What is nesting?
+
+When a tag is inside another tag
 
 ---
 
@@ -64,11 +73,11 @@ What is nesting?
 
 ```
 .highlight, .title {
-  font-weight: bold
+  font-weight: bold;
 }
 
 .title {
-  font-size: 32px
+  font-size: 32px;
 }
 ```
 - **note**: tags with the `class` title will have both rulesets applied: bold *and* 32px size
@@ -93,6 +102,7 @@ What is nesting?
 ```
 [type='checkbox']
 [type='range']
+[type='submit']
 ```
 
 ---
