@@ -6,6 +6,15 @@
 # Review
 Type into chat 1 thing you learned during our last class
 
+- advanced css selectors (using familial vocabulary)
+  - descendant, direct child, sibling
+  - pseudoclasses (start with `:`)
+    - first-child, last-child, only-child, etc
+  - `*` selector
+- keep things DRY (Don't Repeat Yourself)
+  - less clutter, more readable code
+  - allows for other devs to easily join
+  - code is easier to maintain
 ---
 
 # Frameworks
@@ -62,8 +71,11 @@ Type into chat 1 thing you learned during our last class
 ---
 
 # Live Coding Demo
-[repl]()
+[repl](https://replit.com/@jonchin/2023-06-13-Materialize-Example)
 
+---
+
+# Lunch
 
 ---
 
@@ -125,9 +137,5 @@ Type into chat 1 thing you learned during our last class
 
 ---
 
-# Lunch
-
----
-
 # Coding Lab
-## [Into the Multiverse]()
+## [Into the Multiverse](https://replit.com/@jonchin/05-Into-the-Multiverse)
