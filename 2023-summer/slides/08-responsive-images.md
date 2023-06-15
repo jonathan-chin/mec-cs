@@ -6,11 +6,23 @@
 # Review 1/2
 Type into chat 1 thing you learned during our last class
 
+- responsive design: giving the user the best possible experience considering their setup.. iPhone, tablet, Computer
+- grid system: helps layout your page by dividing into 12 equal columns
+- frameworks / library
+  - code from other resources we can use in our projects
+- Materialize CSS - gives "oomph" to html
+- adding Materialize
+  - `<link rel='stylesheet' type='text/css' href='path_to_file' />`
+  - `<script src='path_to_file'></script>`
+  - can use a CDN
+
 ---
 
 # Review 2/2
 
 What is Responsive Design? Why do we need it?
+
+- responsive design: giving the user the best possible experience considering their setup.. iPhone, tablet, Computer
 
 ---
 
@@ -63,5 +75,5 @@ What is Responsive Design? Why do we need it?
 
 ---
 
-# Live Codng Demo
-[repl]()
+# Live Coding Demo
+[repl](https://replit.com/@jonchin/2023-06-14-Responsive-Images-Example)
