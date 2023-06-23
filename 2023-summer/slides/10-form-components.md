@@ -6,6 +6,13 @@
 # Review
 Type into chat 1 thing you learned during our last class
 
+- styling images with box shadow
+  - `box-shadow: inset 10px 10px 30px 15px rgba(0, 0, 0, 0.6);`
+- with materialize colors, you must use the nameof the color for the html attribute
+  - not the `hex code` (color code, `#RRGGBB`)
+  - eg: `#ffff00`
+- how to use Materialize button icons with different styles
+
 ---
 
 # Component Library
