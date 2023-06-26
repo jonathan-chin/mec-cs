@@ -6,6 +6,17 @@
 # Review
 Type into chat 1 thing you learned during our last class
 
+- DOM is the document object model
+  - refers to all the HTML tags
+  - tags are basically the same thing as nodes
+- animations using JS and jQuery
+  - can use CSS `@keyframes`
+- how to make an item fade / slide up and down
+  - `.slideUp(2000).slideDown(2000);`
+- `.toggleClass()` can add or remove a class from a tag
+  - used to animate a tag using CSS
+- `.val()` action can get/set info
+
 ---
 
 # Materialize JS Components
@@ -32,7 +43,7 @@ Type into chat 1 thing you learned during our last class
 ---
 
 # Live Coding Demo
-[repl]()
+[repl](https://replit.com/@jonchin/2023-06-26-Materialize-JS-Components-Example)
 
 ---
 
