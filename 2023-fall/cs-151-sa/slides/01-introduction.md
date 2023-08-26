@@ -130,6 +130,10 @@ paginate: true
 
 ---
 
+# Code Along
+
+---
+
 # Variables
 
 - computers deal with lots of different bits of information
@@ -140,8 +144,13 @@ paginate: true
 
 ---
 
+# Code Along
+
+---
+
 # For Next Week
 
 - read Chapter 1
+- programming assignment #1 (simple)
 - quizzes will start next week
 
