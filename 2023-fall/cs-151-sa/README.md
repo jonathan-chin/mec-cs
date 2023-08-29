@@ -5,7 +5,7 @@ Course Syllabus
 # CS 151 - Introduction to Computing
 
 ## Course Details
-Instructor: Jon Chin, email TBD
+Instructor: Jon Chin
 3 credits; 3.5 class hours  
 Saturdays 3:00pm - 6:30pm EST  
 Academic Building 1 Room C05
