@@ -13,6 +13,7 @@ Write a `.cpp` file that, when compiled and executed, will do the following:
 
 ## Expected Output
 
+```
 2
 4
 6
@@ -29,6 +30,7 @@ Enter a number: 13
 Enter a number: 16
 Enter a number: 99
 thank you!
+```
 
 ## Submission
 
