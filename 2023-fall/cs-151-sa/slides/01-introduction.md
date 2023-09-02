@@ -46,17 +46,10 @@ paginate: true
 
 # Programming Assignment Procedure
 
-- Programming Assignments will be posted on repl
-- you will have to `fork` them to create a copy you can edit and add your answers
-- once done, you need to `generate a join link` for submission
+- Programming Assignments will be posted on the team repl
+- you'll submit them through repl
 - I'll be able to add feedback directly to your repl
-
----
-
-# How to use Repl
-
-- [Forking a repl](https://www.youtube.com/watch?v=dJSWW2uDx5Y) provided by YouTube Channel Mr. Hamilton
-- [Generating a join link](https://cs.westminstercollege.edu/cmpt201/repl.it.html#:~:text=Working%20together%20on,window%20in%20Zoom) provided by CMPT 201 at Westminster College
+- reminders will be posted on Blackboard
 
 ---
 
@@ -66,16 +59,6 @@ paginate: true
 
 # Cognitive model of a computer
 ## If you had to explain what a computer is, what would you say?
-
----
-
-- a machine that stores data and displays data
-- a machine that can process data
-- takes in information, allows it to be readable by other means
-- processing is taking in input, compile it, and print it out
-- computer shows it to you
-- compiling is taking a language and putting into machine language
-- taking a lot of information and putting it into one spot
 
 ---
 
@@ -118,29 +101,15 @@ paginate: true
 
 ---
 
+# Break
+
+---
+
 # Coding Lab
 
----
-
-# The Basics
-
-- `boilerplate` code is prewritten, minimal code that is commonly needed
-- remember: computer language syntax is `not` forgiving
-- one common way to `output` information is using `std::cout`
-
----
-
-# Code Along
-
----
-
-# Variables
-
-- computers deal with lots of different bits of information
-- these bits need to be stored somewhere
-- your computer has `virtual boxes` that can be used to store info
-- in programming, these are referred to as `variables`
-- you'll learn more about this in depth later
+- Intro to Replit
+- Intro to C++ basic syntax
+- Review assignment submission process
 
 ---
 
