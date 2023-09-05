@@ -8,6 +8,10 @@ paginate: true
 
 ---
 
+# VS Code Review
+
+---
+
 # Terminal
 
 - text only way of communicating / controlling a computer
@@ -33,10 +37,15 @@ paginate: true
 
 ---
 
+# Quiz Review
+
+---
+
 # Review Functions 1/3
 
 - how would you define what a function is?
 - how would you explain how to use them?
+  - `function signature`
 
 ---
 
@@ -44,8 +53,8 @@ paginate: true
 
 - blocks of code that can be reused with different inputs and outputs
 - essentially miniature programs
-- can have arguments or not
-- can have a return value or not
+- can have `arguments` or not
+- can have a `return value` or not
 - all (arguments, return value) must have a data type
 
 ---
