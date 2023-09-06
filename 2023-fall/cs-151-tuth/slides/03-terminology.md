@@ -11,6 +11,13 @@ paginate: true
 # Review
 ## What is 1 thing you remember from our last class?
 
+- case sensitive
+- comments helps follow what's going on
+- 3 dots indicates the program is finished running (only repl.it)
+- `{}` mark off a block of code
+- statements end with semicolons `;`
+- directives start with a `#`
+
 ---
 
 # Major Hardware Components
@@ -28,8 +35,7 @@ paginate: true
 
 - computers can only understand `machine code`or binary
   - example: `0100 1010 1110 1001`
-- humans can use a `high level programming language` that looks close enough to English
-  - for us, this language is C++
+- humans can use a `high level programming language` that looks close enough to English. for us, this language is C++
 - this is called `source code`
 - a special program called a `compiler` will try to convert the programming language into an intermediate stage called `object code`
   - if there are `syntax errors` or errors against the rules of the language, it will `not` compile
@@ -89,7 +95,7 @@ paginate: true
 # Lines and Whitespace 2/2
 
 ```
-for(int i = 0; i < 10; i){std::cout << i;}
+for(int i = 0; i < 10; i++){std::cout << i;}
 
 // is the same as
 
