@@ -4,7 +4,7 @@ paginate: true
 ---
 
 # 01 - Introduction to our course!
-2023-08-26
+2023-09-02
 
 ---
 
