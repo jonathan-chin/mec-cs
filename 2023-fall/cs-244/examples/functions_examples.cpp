@@ -1,5 +1,9 @@
 #include <iostream>
 
+double exponent(double inputNumber, double exp = 2){
+  return inputNumber; //......
+}
+
 double square(double inputNumber){
     return inputNumber * inputNumber;
 }

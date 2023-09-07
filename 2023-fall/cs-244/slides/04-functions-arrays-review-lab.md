@@ -16,6 +16,14 @@ paginate: true
 
 ---
 
+# Notes
+
+- `API` - external library of functions
+- `API` alternate definition - documentation of an external library
+
+
+---
+
 # For next week
 
 - read Chapter 7.1 - 7.4

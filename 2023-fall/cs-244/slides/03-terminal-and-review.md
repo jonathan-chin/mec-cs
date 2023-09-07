@@ -71,6 +71,21 @@ paginate: true
 
 ---
 
+# Notes
+
+- arrays are collections of like data
+- arrays are a collection of values in rows
+- a collection of anything, each item can be referred to by its index
+- same data type!
+- arrays are ordered
+- arrays are variables that have multiple values
+- to access an item inside, use square bracket notation
+- declare an array: `int numbers[10]`;
+- indexes start at 0
+
+
+---
+
 # Review Arrays 2/3
 
 - arrays are continuous blocks in memory that hold many of the same data type
