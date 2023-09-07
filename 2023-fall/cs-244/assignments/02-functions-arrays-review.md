@@ -24,14 +24,14 @@ To generate a random number in C++, you will need the srand() and rand() functio
 
 ## Expected Output
 
-Horford's last 10 games:
-37 21 10 40 11 1 28 2 32 18
-Thornwell's last 10 games:
-17 2 28 48 12 20 15 16 0 26
-Horford's average points per game:
-20
-Thornwell's average points per game:
-18.4
+Horford's last 10 games:  
+37 21 10 40 11 1 28 2 32 18  
+Thornwell's last 10 games:  
+17 2 28 48 12 20 15 16 0 26  
+Horford's average points per game:  
+20  
+Thornwell's average points per game:  
+18.4  
 Horford is a better pick!
 
 ## Submission
