@@ -11,6 +11,14 @@ paginate: true
 # Review
 ## What is 1 thing you remember from our last class?
 
+- Input/Output
+- 4 main ways to see if your code works: underlined, run a test, compile (green run button), syntax highlighting
+- An abacus is a computer
+  - takes in data, does something to it, creating an output
+- GitHub - cloud based platform used for software development
+  - software version control
+  - work solo or on teams
+
 ---
 
 # Major Hardware Components
@@ -24,6 +32,15 @@ paginate: true
 
 ---
 
+# Operating System (OS)
+
+- a communication layer between software and hardware
+- exists initially in `secondary storage`
+  - anything that is a `file` or a `folder` is in `secondary storage`
+- first thing that happens on boot is OS is loaded in `RAM`
+
+---
+
 # Programming Languages
 
 - computers can only understand `machine code`or binary
@@ -34,6 +51,16 @@ paginate: true
   - if there are `syntax errors` or errors against the rules of the language, it will `not` compile
 - a special program called a `linker` will then take that `object code` and make an `executable file`
 - note: repl.it's green play button does all these things at once: compiles, links, *and* runs
+
+---
+
+# 3 major steps summary
+
+- `source code` - mostly human readable
+  - compiler turns source into object
+- `object code` - intermediate step
+  - linker turns object into executable
+- `executable` - machine code, can be run by computer
 
 ---
 
