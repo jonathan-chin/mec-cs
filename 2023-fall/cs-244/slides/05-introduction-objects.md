@@ -9,7 +9,28 @@ paginate: true
 ---
 
 # Review
-## What is 1 thing you remember from last class?
+## What is 1 thing you remember from last week?
+
+- an array is an ordered collection of whose data types are identical with fixed size
+- similar to lists
+- accessed via index
+- functions complete a task; can be called at a later time
+- a function can also be `void`
+
+---
+
+# Function and Function Prototype
+
+```
+// function prototype
+double square(double);
+
+
+// generally called a function definition
+double square(double number){
+	return number * number;
+}
+```
 
 ---
 
@@ -88,7 +109,7 @@ paginate: true
 
 - instead of having a "main" bank function or program, have a bank `object` and customer `objects`
 - bank object can have many customer objects
-  - possible stored in a rray
+  - possible stored in an array
 - each customer object has a `private` balance variable; customers cannot see each other's balances
 - banks object can "ask" each customer object to pay $100
   - it is up to each individual customer object to decide how to give that
@@ -128,10 +149,17 @@ paginate: true
   
 # Instantiating a Class
 
+- first, define the class!
+- then, can use the class as if it were a data type
+  - ie just the same as you would declare an `int` or `double`
 
 ---
 
 # Accessing Public Members
+
+- remember: an object is a collection of variables 
+- you can access the `public` members from anywhere
+- you have to use this syntax: `objectVariableName.publicMember`
 
 ---
 
