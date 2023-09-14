@@ -1,10 +1,10 @@
-# 02 Functions and Arrays Review
+# Programming Assignment 02 Functions and Arrays Review
 
-## Purpose
+## PURPOSE
 
 To practice using functions and arrays in C++.
 
-## Task
+## TASK
 
 You just started in small, international business that operates in the US and Japan. You've been making some profit but the sales are in USD and you want to visualize it in yen. You're also curious how it stacks up against your friend's business, which also operates in the US and Japan. So you figure that you can use C++ to help you do that.
 
@@ -12,7 +12,7 @@ You just started in small, international business that operates in the US and Ja
 
 2. Write a function that takes a double as an input and returns a double. It should convert from USD to yen, which is roughly 1 USD = 147.78 yen.
 
-3. Create another array of 7 doubles and call the function you wrote in step 2 on each valye in the array in step 1, storing them in this new array. This represents your company's profit in yen.
+3. Create another array of 7 doubles and call the function you wrote in step 2 on each value in the array in step 1, storing them in this new array. This represents your company's profit in yen.
 
 4. Repeat steps 1 and 3 for your friend's company
 
@@ -26,7 +26,7 @@ To generate a random number in C++, you will need the srand() and rand() functio
 
 Since the numbers are calculated randomly every time the program runs, your output will not 100% match the expected output. But it should be reasonable.
 
-## Expected Output
+## EXPECTED OUTPUT
 
 Your Company's Profits (USD): 62 35 74 20 86 69 12  
 Your Company's Profits (Yen): 9184.36 5179.3 10951.72 2955.6 12746.68 10159.22 1773.36  
@@ -36,6 +36,6 @@ Average Profit in Yen (Your Company): 7250.42857
 Average Profit in Yen (Friend's Company): 9240.58571  
 Friend's Company is more profitable.
 
-## Submission
+## SUBMISSION
 
-Please submit a `.cpp` file on Blackboard
+Please submit a `.cpp` file on Blackboard.
