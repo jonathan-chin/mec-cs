@@ -23,6 +23,15 @@ paginate: true
 
 ---
 
+# Programming Assignments
+
+- generally a 1-2 week lag time in grading
+- I graded the first 2 assignments
+- be warned about code that resembles code produced by generative AI
+- repeat observations can lead to a 0 for the course
+
+---
+
 # Member Function Definitions
 
 - can be fully declared within the class definition
