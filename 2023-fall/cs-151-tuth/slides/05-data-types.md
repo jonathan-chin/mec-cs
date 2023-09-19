@@ -8,6 +8,15 @@ paginate: true
 
 ---
 
+# Assignments
+
+- generally expect a 1-2 week lag between submission and grading
+- review your repl and look for any comments that start with `// JC:`
+- if there is a point deduction, there will be a number following, like `// JC: -1.5`
+- started to grade assigments and will catch up for next week
+
+---
+
 # Review
 ## What is 1 thing you remember from our last class?
 
