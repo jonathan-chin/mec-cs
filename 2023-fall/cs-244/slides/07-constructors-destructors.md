@@ -3,7 +3,7 @@ theme: default
 paginate: true
 ---
 
-# 06 - Object Member Functions, Constructors, and Destructors
+# 07 - Object Member Functions, Constructors, and Destructors
 2023-09-19
 
 ---
@@ -11,9 +11,22 @@ paginate: true
 # Review
 ## What is 1 thing you remember from last week?
 
+- class definition
+  - use `class` keyword
+  - generally capitalize class names
+- objects, which have their own methods and variables
+- accessors and mutators
+  - also known as getters and setters
+  - reinforce `encapsulation`
+  - allow limited / protected access to private members of the class
+- variable scope
+  - part of the code where a variable or function name is valid
+  - range of where a variable or function is reachable
+  - `this` keyword
+
 ---
 
-# Clarification on this
+# Clarification on `this`
 
 - `this` keyword exists within objects to refer to itself
 - a way to access its members
