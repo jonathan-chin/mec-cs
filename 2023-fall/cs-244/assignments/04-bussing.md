@@ -14,6 +14,7 @@ You've been asked to design a bus route simulator for the MTA. They want to know
 - protects its route number from change and only sets it on instantiation
 - protects its number of passengers
 - has a boardPassenger member function that takes a Passenger object (explained below). if the passenger's route number matches its route number, it should increment its passenger count. otherwise, do nothing.
+- *NOTE* you may have to prototype the Passenger class before you define the Bus class. this is because the boardPassenger function refers to a Passenger class. you can do this by simply having a `class Passenger;` statement at the top.
 
 Also create a Passenger class that:
 
