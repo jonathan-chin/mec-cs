@@ -17,11 +17,12 @@ You've been asked to design a bus route simulator for the MTA. They want to know
 
 Also create a Passenger class that:
 
-- has a constructor that accepts a string, repesenting the route number that the passenger needs to get on
+- has a constructor that accepts 2 strings, repesenting the route number that the passenger needs to get on and their name.
 - has no default constructor; in this context, it does not make sense to have someone at a bus stop who is not waiting for a bus
 - tracks whether it is 'waiting' or 'on bus'
 - protects its route number from change and only sets it on instantiation
 - protects its boarding status
+- protects its name
 - has a boardBus member function that takes a Bus object. if the passenger's route number matchesthe bus's route number, it will set its own boarding status to 'on bus'
 
 Finally, write code in `int main` to demonstrate that the classes work.
@@ -31,6 +32,7 @@ Finally, write code in `int main` to demonstrate that the classes work.
 - for each Bus object, try to board each passenger. the Bus object's passenger count should increase.
 - for each Passenger object, try to board onto each bus. the Passenger object's boarding status should change.
 - finally, print out each Bus object's route and passenger count.
+- also, print out each Passenger object's name and boarding status.
 
 ## Hint
 
