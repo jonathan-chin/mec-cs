@@ -11,6 +11,18 @@ paginate: true
 # Review
 ## What is 1 thing you remember from our last class?
 
+- how to write code on replit and how to run it
+- secondary storage is for long term data and consists of hard drives
+- primary storage is RAM (usually what we mean when we say memory)
+- syntax error causes
+  - replit will underline these in red
+  - violate some rule of the programming language
+- logic error
+  - code runs but output is not what you expect
+- runtime error
+  - an error that pops up under specific input or contexts
+  - best example: dividing by zero
+
 ---
 
 # Assignments
@@ -82,6 +94,7 @@ note: your programming language and company may have its own `style` guide and r
 - helps uncover `logic` and `runtime errors`, which are notoriously difficult
 - mimics the way a computer "thinks"
   - makes us better `debuggers` and programmers
+- might also be called `hand trace`, `manual trace`, `trace`
 
 ---
 
@@ -106,6 +119,11 @@ note: your programming language and company may have its own `style` guide and r
 - generally can use poor grammar, shortcuts, and brevity
 - can explain one statement or the next X statements
 - at this stage in your career, better to **over comment** than to **under comment**
+
+---
+
+# Break
+## Come back at 5:03pm
 
 ---
 
