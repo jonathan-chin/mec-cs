@@ -127,6 +127,7 @@ class Passenger{
 - can be included instead of including full file
   - for example: Bus.cpp would include Passenger.h
 - `linker` handles wrapping together multiple files
+- resembles an API or instruction manual
 
 ---
 
