@@ -11,6 +11,16 @@ paginate: true
 # Review
 ## What is 1 thing you remember from last week?
 
+- over commenting
+  - only commenting when something is confusing or difficult
+  - for functions, give a general overview
+  - comments don't need perfect grammar
+  - remember that variable and function names, as well as whitespace, do a lot of commenting already
+- default constructors (automatically called)
+- a constructor is a function that allocates and potentially initializes data for an instance of the class
+- destructors - a function that is called when an object is destroyed / out of scope, etc
+  - can free up memory or other cleanup logic
+
 ---
 
 # Arguments in Functions
@@ -30,7 +40,7 @@ void triple(int number){
 
 int main(){
 	int argument = 123;
-	quadruple(argument);
+	triple(argument);
 	std::cout << argument; // still has value 123
 }
 ```
@@ -149,7 +159,7 @@ class Passenger{
 ---
 
 # Coding Lab
-## let's revisit 
+## let's revisit the Date object problem from Thursday
 
 ---
 
