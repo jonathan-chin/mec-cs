@@ -41,6 +41,6 @@ The numbers here are low enough that if you wanted to, you could hardcode all fo
 
 As we move along in the semester, we'll be using those instead of hardcoding.
 
-## SUBMISSION
+## Submission
 
 Please submit a `.cpp` file on Blackboard.
