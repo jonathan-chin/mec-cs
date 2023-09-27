@@ -15,6 +15,11 @@ paginate: true
 
 ---
 
+# Double Check
+## Assignments on Replit have to be submitted
+
+---
+
 # Whitespace as a Tool
 
 - whitespace includes but is not limited to: space character, tab character, new line, indenting
