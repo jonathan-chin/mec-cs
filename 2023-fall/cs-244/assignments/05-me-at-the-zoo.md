@@ -18,7 +18,7 @@ You are building a model of a zoo system and want to start off small. Using C++ 
   - if species is invalid, set it to tiger
   - if gender is invalid, set it to female
   - if age is invalid, set it to 1
-- the only valid inputs for species are `tiger`, `lion`, `bears`, and `elephant`
+- the only valid inputs for species are `tiger`, `lion`, `bear`, and `elephant`
 - on your discretion, determine invalid values for gender and age and explain it in a comment
 
 ### Zoo Class
