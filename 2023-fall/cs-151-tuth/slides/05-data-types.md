@@ -14,11 +14,30 @@ paginate: true
 - review your repl and look for any comments that start with `// JC:`
 - if there is a point deduction, there will be a number following, like `// JC: -1.5`
 - started to grade assigments and will catch up for next week
+- be warned: any assignments that resemble output from generative AI, such as ChatGPT, will be flagged
+- repeated submissions of flagged material may result in a 0 for the course
 
 ---
 
 # Review
 ## What is 1 thing you remember from our last class?
+
+- memory tracing - manually tracking variables and values
+  - mimicking the computers thinking
+- how to ask the user for input
+  - std::cin >>
+- PRIMM
+  - Predict Run Investigate Modify Make
+  - philosophy / structure for learning computer science
+- comments - stuff you leave for yourself / someone else
+  - `//` or `/* */`
+- declaring variables
+  - datatype then variable name
+  - reserves space in memory (RAM) for us to use
+- initializing variables
+  - giving a variable a value for the first time
+- declare and initialize in the same line
+  - `int year = 2023;`
 
 ---
 
@@ -154,6 +173,16 @@ float children_per_family = 2.3;
 int families = 5;
 int expected_total_children = families * children_per_family;
 cout << expected_total_children;
+```
+
+---
+
+# other common error
+
+```
+int totalSales = 100;
+double averageSales = totalSales / 3;
+std::cout << averageSales;
 ```
 
 ---

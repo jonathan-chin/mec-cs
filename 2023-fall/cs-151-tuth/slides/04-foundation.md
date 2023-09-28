@@ -11,6 +11,15 @@ paginate: true
 # Review
 ## What is 1 thing you remember from our last class?
 
+- statements must end with a ; (semicolon)
+- capitalization matters
+- RAM is temporary memory and goes away when the computer turns off
+  - primary memory storage
+  - whenever we use the word `memory` we are almost always referring to RAM
+- comments are important
+  - help you with trouble shooting
+  - `//` or `/* */`
+
 ---
 
 # Vocabulary
@@ -44,6 +53,8 @@ int days = 31; // declaration AND initialization
   a. `int days_in_february;`
   b. `int d;`
   c. `int feb_days;`
+  d. `int daysFeb;`
+  e. `int FebDays;`
 - I have my own style and it's what you'll be exposed to most often
 
 ---
@@ -67,6 +78,7 @@ note: your programming language and company may have its own `style` guide and r
 
 # Memory Trace
 
+- also known as `program trace` or just `trace`
 - way of manually tracking variables and values over the course of a program running
 - helps uncover `logic` and `runtime errors`, which are notoriously difficult
 - mimics the way a computer "thinks"
@@ -76,6 +88,24 @@ note: your programming language and company may have its own `style` guide and r
 
 # Memory Trace Example
 ## tracking a score board
+
+```
+// tracking scores of players across a basketball game
+
+int carmello;
+int lebron;
+int kobe;
+carmello = 0;
+lebron = 0;
+kobe = 0;
+carmello = 3;
+carmello = carmello + 2;
+carmello += 2;
+// evaluate then assign
+std::cout << lebron;
+```
+
+
 
 ---
 

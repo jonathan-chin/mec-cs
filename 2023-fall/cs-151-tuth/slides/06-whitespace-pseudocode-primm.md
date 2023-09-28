@@ -13,6 +13,30 @@ paginate: true
 # Review
 ## What is 1 thing you remember from our last class?
 
+- truncation - lose data due to going from higher precision data type to lower
+- char - represents a single digit / letter
+  - uses '
+- strings - a collection of chars
+  - uses "
+- commenting - sometimes, too many comments can sometimes get in the way of seeing the code
+- floats - decimals, 7 spaces / memory
+- doubles - decimals, 14 spaces / memory
+- long - allocates more space
+- be precise about steps, layout variables in order
+- pre-planning the steps, doing math in head, PRIMM
+- PRIMM - Predict, Run, Investigate, Modify, Make
+- PRIMM is a process to learn how to code
+- L symbol in syntax
+  - profit / 3 vs profit / 3.0
+  - same thing with 3 and 3L
+
+
+
+
+
+
+
+
 ---
 
 # Whitespace as a Tool
