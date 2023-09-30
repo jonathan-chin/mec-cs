@@ -11,6 +11,17 @@ paginate: true
 # Review
 ## What is 1 thing you remember from our last class?
 
+- `memory traces` is a way of manually tracking variables / values over the course of running a program
+  - also known as `hand trace`, `manual trace`, or even just `trace`
+- variable name formats
+  - be specific / descriptive
+  - examples: camelCase, CapitalCase, UPPERCASE
+  - case sensitive
+- variable declaration - defining a variable, computer will allocate memory space for us
+- variable initialization - assigning a value to the variable for the first time
+- practicing `expected outputs`
+  - what the program should output or print out if run correctly
+  - if actual output does not match expected output, you may have a logic error
 ---
 
 # Data Types 1/2
@@ -38,7 +49,7 @@ paginate: true
 
 ---
 
-# Different kinds of data can only be manipulative in certain ways
+# Different kinds of data can only be manipulated in certain ways
 
 ## These are are called `Data Types`
 
@@ -83,7 +94,7 @@ paginate: true
 int populationChangeBrooklyn2020; // positive or negative
 long int grainsOfSandChange2020; // larger positive or negative
 unsigned int grainsOfSand2020; // huge positive number
-unsigned long atomsOnEarth; // very huge positive number
+unsigned long int atomsOnEarth; // very huge positive number
 ```
 
 - note: unsigned values can also be 0
@@ -117,7 +128,7 @@ unsigned long atomsOnEarth; // very huge positive number
 
 ---
 
-# `float` and `double` 1/2
+# `float` and `double` 2/2
 
 ```
 float mass = 590.3; // grams
@@ -144,7 +155,7 @@ double force = mass * gravity;
 float children_per_family = 2.3;
 int families = 5;
 int expected_total_children = families * children_per_family;
-cout << expected_total_children;
+std::cout << expected_total_children;
 ```
 
 ---
@@ -158,7 +169,7 @@ cout << expected_total_children;
 ```
 int totalSales = 100;
 double averageSales = totalSales / 3;
-std::cout << averageSales; // expected output 3.33 or similar
+std::cout << averageSales; // expected output 33.33 or similar
 // actual output does not match expected output
 ```
 
@@ -240,8 +251,20 @@ string name = 'Jon'; // invalid code
 - often used by the computer to make decisions
 
 ```
-bool is_underage = false;
+bool is_underage = false; // comment on how is determined
+is_underage = true;
 if(is_underage){
+	kick_out();
+}else{
+	let_in();
+}
+```
+
+---
+
+```
+int age = 24;
+if(age < 18){
 	kick_out();
 }else{
 	let_in();
