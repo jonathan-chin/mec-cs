@@ -17,12 +17,24 @@ paginate: true
 - will do a last minute review right before
 - will be structured like an assignment
 - covers material up to (and including) chapter 4*
-  - * might only cover parts of chapter 4 depending on time
+  - might only cover parts of chapter 4 depending on time
 
 ---
 
 # Review
 ## What is 1 thing you remember from our last class?
+
+- `char` - represents a single character
+  - examples: `'a'`
+- `int`, `float`, `double` have different levels of precision
+  - be careful of `truncation`
+- `int` is a whole number, can be positive, negative, or zero
+- `float` and `double` are numbers with decimals
+- `bool` is true or false
+- choosing the correct data type is important
+- `double` as more significant digits than `float`
+- `string` is a ordered collection of `char`
+- `char` are based on ASCII
 
 ---
 
