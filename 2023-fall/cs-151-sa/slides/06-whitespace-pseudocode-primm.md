@@ -10,6 +10,17 @@ paginate: true
 
 ---
 
+# Midterm
+
+- Oct 28
+- in class, designed for 1-1.5 hours
+- will do a last minute review right before
+- will be structured like an assignment
+- covers material up to (and including) chapter 4*
+  - * might only cover parts of chapter 4 depending on time
+
+---
+
 # Review
 ## What is 1 thing you remember from our last class?
 
