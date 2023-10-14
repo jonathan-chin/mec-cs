@@ -6,38 +6,24 @@ paginate: true
 ---
 
 # 07 - std::cin, Operators, and Constants
-2023-10-14
+2023-10-03
 
 ---
 
 # Midterm
 
-- Oct 28
+- Oct 24
 - in class, designed for 1-1.5 hours
 - will do a last minute review right before
 - will be structured like an assignment
-- covers material up to (and including) chapter 4
-  - only covers some parts of chapter 4
+- covers material up to (and including) chapter 4*
+  - * might only cover parts of chapter 4 depending on time
 
 ---
 
 # Review
 ## What is 1 thing you remember from our last class?
 
-- `whitespace` breaks up code
-  - organization tool
-- `string` deals with text
-  - an ordered collection of chars
-  - string comparators
-    - has its own algorithm
-	- eg: `Boston` vs `Austin`, `Boston` is considered "more than" `Austin`
-- `char` is a single letter, number, symbol, or `control character`
-- `bool` is `true` or `false`
-  - `boolean statement` might be 18 > 9
-- `pseudocode`
-  - helps express thoughts quickly
-  - mixture of computer language and human language
-  - a way to help plan out code
 ---
 
 # std::cin
@@ -66,11 +52,6 @@ paginate: true
 - parentheses `()` can be used for clarification
 - rule of thumb is that clarity is most important; when in doubt, use `()`
 
-```
-double a = 23 + 94 * 13;
-double b = 23 + (94 * 13);
-```
-
 ---
 
 # Data Type Promotion / Demotion
@@ -95,19 +76,20 @@ double b = 23 + (94 * 13);
 
 ---
 
-# Named Constants 1/2
+# Named Constants 1/3
 
 - constants are variables whose value is assigned only once and can never change
 - use `const` before variable declaration and assignment
 - convention is to put variable name in ALL_CAPS
 - useful to ensure protect against errors
+  - example: 
 - useful to improve code readability
 - useful when you use the same numbers over and over again
 - example: converting several different feet variables to meters
 
 ---
 
-# Named Constants 2/2
+# Named Constants 2/3
 
 ```
 double meter = 3.5;
@@ -136,6 +118,7 @@ double feetWithConst = meter * METER_TO_FEET;
 
 # For Next Class
 
+- no class on Oct 10
 - finish reading Chapter 3 (and review first half)
 - read chapter 4.1-4.5
 - assignment will be posted
