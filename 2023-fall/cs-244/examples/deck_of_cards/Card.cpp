@@ -12,7 +12,22 @@ int Card::getValue()
 
 std::string Card::getValueAsString()
 {
-    // todo: implement
+    switch(value){
+        case 1:
+            return "ace";
+        break;
+        case 11:
+            return "jack";
+        break;
+        case 12:
+            return "queen";
+        break;
+        case 13:
+            return "king";
+        break;
+        default:
+            return std::to_string(value);
+    }
 }
 
 int Card::getSuit()
@@ -37,9 +52,13 @@ std::string Card::getSuitAsString()
         return "spades";
         break;
     default:
-        // todo: what should be default?
+        return "unknown";
         break;
     }
+}
+
+std::string Card::getString(){
+    return getValueAsString() + " of " + getSuitAsString();
 }
 
 Card::Card(int newValue, int newSuit)

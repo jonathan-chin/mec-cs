@@ -6,9 +6,15 @@
 
 #include <iostream>
 #include "Card.h"
-//#include "Deck.h" // file doesn't exist yet so comment out
+#include "Deck.h" // file doesn't exist yet so comment out
 
 int main(){
-    Card twoOfHearts = Card(2, 3); // 3 is hearts
-    std::cout << twoOfHearts.getSuitAsString();
+    Deck deck = Deck();
+    deck.shuffle();
+
+    Card card;
+    for(int index = 0; index < 5; index++){
+        card = deck.dealOne();
+        std::cout << card.getString() << " ";
+    }
 }
