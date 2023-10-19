@@ -20,6 +20,7 @@ class Card{
         std::string getValueAsString();
         int getSuit();
         std::string getSuitAsString();
+        std::string getString();
 
         /*
             since a card's suit and value should not be changeable
