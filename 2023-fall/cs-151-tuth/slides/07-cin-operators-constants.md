@@ -17,12 +17,33 @@ paginate: true
 - will do a last minute review right before
 - will be structured like an assignment
 - covers material up to (and including) chapter 4*
-  - * might only cover parts of chapter 4 depending on time
+  - might only cover parts of chapter 4 depending on time
 
 ---
 
 # Review
 ## What is 1 thing you remember from our last class?
+
+- whitespace doesn't affect the way a program runs
+- space it out so it becomes easier to read
+- repl.it has autoformat (command s or control s)
+- booleans - data type (bool) that is either true or false
+- useful with `if/then`
+- `char` are a data type
+  - single characters
+- `strings` are ordered collections of characters
+- comparing `chars`
+  - eg: capital letters < lowercase letters
+- comparing `strings`
+  - if 2 strings are the same, the shorter one comes first
+  - `New York` < `New York City`
+  - introduction into your first algorithm
+
+
+---
+
+# Review Previous Assignment
+## Assignment 04 - Income Calculator
 
 ---
 
@@ -81,8 +102,7 @@ paginate: true
 - constants are variables whose value is assigned only once and can never change
 - use `const` before variable declaration and assignment
 - convention is to put variable name in ALL_CAPS
-- useful to ensure protect against errors
-  - example: 
+- useful to protect against errors
 - useful to improve code readability
 - useful when you use the same numbers over and over again
 - example: converting several different feet variables to meters
