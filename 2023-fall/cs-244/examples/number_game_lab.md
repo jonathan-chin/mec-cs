@@ -4,14 +4,14 @@ To practice writing multifile OOP programs in C++
 
 # Task
 
-Create a game where players can challenge each other. When challenging another player, each player generates a random number between 0 - 99. The player with the highest number wins.
+Create a game where players can challenge each other. When challenging another player, each player generates a random number between 0 - 99. The player with the highest number wins. If both players get the same number, it is a tie.
 
 ## Player Class
 
 - should a player ID number (eg: 3 or 17) that is set on instantiation and cannot be changed after
 - can generate a random number between 0 - 99
 - tracks how many games played, and how many wins / losses
-- can print out ID, games played, and number of wins / losses
+- can print out ID, games played, and number of wins / losses / ties
 
 ## Game Class
 
