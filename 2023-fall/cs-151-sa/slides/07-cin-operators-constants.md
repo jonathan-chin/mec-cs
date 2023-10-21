@@ -12,7 +12,7 @@ paginate: true
 
 # Midterm
 
-- Oct 24
+- Oct 28
 - in class, designed for 1-1.5 hours
 - will do a last minute review right before
 - will be structured like an assignment

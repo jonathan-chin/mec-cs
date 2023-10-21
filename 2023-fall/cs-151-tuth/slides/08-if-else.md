@@ -5,13 +5,31 @@ paginate: true
 
 ---
 
-# 08 - if / else, switch
+# 08 - if / else
 2023-10-17
+
+---
+
+# Midterm
+
+- clarification: Oct 24
 
 ---
 
 # Review
 ## What is 1 thing you remember from our last class?
+
+- `constants` variable whose value is assigned once and cannot change
+  - if you use a number that doesn't change, saves you having to retype it
+  - protects against human error / accidental change
+- `operators` a symbol / punctuation that evaluates data into a new value
+  - eg: `+ * - / !`
+  - many are `binary` - take 2 inputs
+  - some are `unary` - only take 1 input (`!`)
+- `std::cin` - used to input data
+  - `breaks on whitespace` - if the input has any whitespace, it will likely have unexpected behavior
+  - does not do `type checking`
+
 
 ---
 
@@ -126,6 +144,18 @@ if(today == "Saturday" || today == "Sunday"){
 ```
 ---
 
+# Pause for Questions
+
+---
+
+# Break
+
+---
+
+# Coding Lab
+
+---
+
 # boolean operators
 
 - we can create more complex `boolean expressions` by combining them using `boolean operators`
@@ -156,7 +186,6 @@ if(today == "Saturday"
 
 # For Next Week
 
-- read 4.7-4.12
+- review everything up to 4.5
 - bring in any questions about midterm material
 - assignment
-- quiz
