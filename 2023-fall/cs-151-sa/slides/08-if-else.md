@@ -10,6 +10,15 @@ paginate: true
 
 ---
 
+# Pseudocode and Comments
+
+- think of comments as 1 of 2 things:
+  - explain something that's not obvious
+  - leave a placeholder to come back and write more code
+- think of pseudocode as a plan or roadmap
+
+---
+
 # Housekeeping
 
 - midterm clarification: Oct 28
@@ -20,6 +29,23 @@ paginate: true
 
 # Review
 ## What is 1 thing you remember from our last class?
+
+- `named constants` - variables that are defined once and can never be changed
+  - improves readability; example: `const double PI = 3.14;`
+  - helps protect against human error
+- `operators` are symbols that evaluate values
+  - examples: `*`, `+`, `/`, `-`, `==`, `+=`
+- C++ uses the same rules as Order of Operations
+- `overflow` / `underflow`
+  - all data types have a max / min
+  - if increased beyond them, it will overflow / underflow
+  - in CS151, we generally don't have to worry about this
+  - best protection is to just choose the right data type
+- `promotion` / `demotion`
+  - be careful with `demotion`, specifically truncation, going from double -> int, float -> int, etc.
+- std::cin and how it's used
+  - `breaks on whitespace` - potential cause for runtime errors
+  - `doesn't do typechecking` - does not check if what the user inputs is the correct data type that you're expecting
 
 ---
 
@@ -39,6 +65,8 @@ paginate: true
 - computers follow instructions from top to bottom, first to last line
 - ... most of the time. there are special `control structures` that allow a computer to jump around
 - regardless, a computer can `only ever look at one statement at a time`. `control flow` simply determines which statement is next.
+
+---
 
 ---
 

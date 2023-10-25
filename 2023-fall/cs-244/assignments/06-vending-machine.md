@@ -2,7 +2,7 @@
 
 ## Purpose
 
-- To practice writing C++ programs across multiple files
+- To practice writing C++ programs that implement OOP with several files
 - To practice creating user interfaces in C++
 
 ## Task
