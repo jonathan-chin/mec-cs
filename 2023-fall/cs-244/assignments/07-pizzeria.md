@@ -26,7 +26,7 @@ You are asked to create a pizzeria simulator. The pizzeria has one very long ove
   - the `size` variable should be updated to indicate there is 1 fewer pizza
   - you can assume that this function never gets called if there are 0 pizzas in the oven
 - implement a `cook` public member function that calls the `cook` public member function of each pizza that is in the oven
-- implement a `print` function that prints the state of each pizza in the oven
+- implement a `print` public member function that calls the `print` public member function of each pizza that is in the oven
 
 ### Pizza Class
 - create an `pizza.h` file containing all the prototypes and definitions for a Pizza class
