@@ -130,6 +130,9 @@ for(bool &toggle : toggles){
 
 # For Next Week
 
+- **Nov 7** will be in person
+  - representatives from Google will be on campus from 1:00-2:00pm
+  - Nov 9 will also be in person
 - read 8.12 Introduction to the STL vector
 - assignment on vectors
 - quiz next week
