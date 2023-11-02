@@ -2,11 +2,11 @@
 #define DECK_H
 
 #include "Card.h"
+#include <vector>
 
 class Deck {
     private:
-        Card cards[52];
-        int topOfDeck = 0;
+        std::vector<Card> cards;
 
     public:
         void shuffle();

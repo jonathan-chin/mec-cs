@@ -7,18 +7,17 @@ Deck::Deck(){
     // default constructor
     // assume standard 52 card deck, no jokers
 
-    int index = 0; // tracks where in cards member variable you are inserting a new card
     for(int value = 1; value <= 13; value++){
         for(int suit = 1; suit <= 4; suit++){
-            cards[index++] = Card(value, suit); // post increment will increase index after insertion
+            cards.push_back(Card(value, suit));
         }
     }
 }
 
 void Deck::print(){
     // for debugging only
-    for(int index = 0; index < 52; index++){
-        std::cout << cards[index].getString() << "\n";
+    for(Card &card : cards){
+        std::cout << card.getString() << "\n";
     }
 }
 
@@ -42,8 +41,7 @@ void Deck::shuffle(){
 }
 
 Card Deck::dealOne(){
-    // since C++ arrays cannot change size once declared, we have to get creative
-    // todo: check if topOfDeck == 52, meaning there are no more cards
-    // warning: with this implementation, cannot shuffle after the first card is dealt
-    return cards[topOfDeck++]; // post increment so that after we deal one, we update the topOfDeck value
+    Card lastCard = cards[cards.size() - 1];
+    cards.pop_back();
+    return lastCard;
 }
