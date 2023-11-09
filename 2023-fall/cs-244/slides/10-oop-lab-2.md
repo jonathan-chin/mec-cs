@@ -22,7 +22,6 @@ paginate: true
 - `abstraction` - simplifies complexity
 - `inheritance` - promotes code reuse
 - `polymorphism` - allows more flexibility and maintability
-- `extensibility` - enables code to more easily scale and extend
 
 ---
 

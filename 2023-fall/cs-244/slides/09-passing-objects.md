@@ -111,7 +111,6 @@ class Passenger{
 
 - objects inside objects (inside objects inside objects)
 - able to reuse `encapsulated` code
-- part of OOP `extensibility`
 - imagine the Bus and Passenger classes; a bus can have passengers without having to care about exact implemenation (this is `abstraction`
 - a BusStation class can have multiple buses (which have multiple passengers)
 - a Transit system can have multiple BusStations, as well as TrainStations, etc.
