@@ -11,6 +11,29 @@ paginate: true
 # Review
 ## What is 1 thing you remember from our last class?
 
+- boolean operators
+  - evaluates 1 or 2 boolean expressions to a new boolean value
+- and operator (&&) combines 2 boolean expressions and is only true if both operands are true
+- or operator (||) combines 2 boolean expressions and is true if at least 1 operator is true
+- not operator (!) flips a boolean expression to its opposite
+
+```
+std::string day;
+if(!(day == "Saturday"
+  || day == "Sunday")){
+	// do something
+}
+```
+
+
+- `variable scope` - where a variable is considered valid or defined
+  - a variable is valid in the block it's declared
+  - a variable is also valid in nested blocks
+  - it is not valid outside of the block it's declared
+
+- `conditional operator` is a shortcut for the `if-else` structure
+
+
 ---
 
 # Code Along
@@ -26,7 +49,7 @@ paginate: true
 
 ---
 
-# While Loop
+# while Loop
 
 - `while` keyword has two components: the `condition` and `code block`
 - so long as the `condition` evaluates to `true`, the `code block` will run
@@ -34,7 +57,7 @@ paginate: true
 
 ---
 
-# While Loop Syntax
+# while Loop Syntax
 
 ```
 while(some_boolean_expression){
@@ -48,7 +71,7 @@ while(some_boolean_expression)
 
 ---
 
-# While Loop Example
+# while Loop Example
 
 ```
 int hoursAsleep = 0;
@@ -145,7 +168,7 @@ do{
 
 ---
 
-# Do While Loop and Input Validation
+# do-while Loop and Input Validation
 
 - `input validation` is checking that user input is valid, ie free from error
 - also called `error checking` or `sanitizing` or just plain `validation`
@@ -157,7 +180,7 @@ do{
 
 ---
 
-# For Loops
+# for Loops
 
 - `for` loops are special kinds of `while` loops
 - still repeats a block of code
@@ -171,10 +194,10 @@ do{
 
 ---
 
-# For Loop Example
+# for Loop Example
 
 ```
-for(int days_left = 10; days_left > 0; days--){
+for(int days_left = 10; days_left > 0; days_left--){
 	// do something
 }
 
@@ -189,6 +212,19 @@ for(
 
 ---
 
+# The "Standard" for Loop
+
+- if you want to run exactly 32 times
+```
+for(int index = 0; index < 32; index++){
+  // do stuff
+}
+```
+- swap 32 for the appropriate number
+- also plays well with `arrays`
+
+---
+
 # Summary
 
 - loops let you rewind back to a previous part of the code
@@ -199,21 +235,14 @@ for(
 
 ---
 
-# Deciding on Which Loop to Use
-
-- `while` if you don't know exactly how many times to repeat
-  - could be 0, 1, or many times
-- `do-while` if you don't know exactly how many times to repeat but it is **at least once**
-- `for` if you know exactly how many times to repeat
-
----
-
 # Coding Lab
 
 ---
+
 
 # For Next Week
 
 - reread chapter 5
 - quiz
 - assignment (for real)
+- revise midterm if you want to (due before Thanksgiving)
