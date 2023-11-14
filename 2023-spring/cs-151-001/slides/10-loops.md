@@ -8,6 +8,11 @@ paginate: true
 
 ---
 
+# Review
+## What is 1 thing you remember from our last class?
+
+---
+
 # Control Flow - Loops
 
 - `if/else` lets us skip **forward** in code
