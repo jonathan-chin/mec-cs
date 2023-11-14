@@ -11,6 +11,14 @@ paginate: true
 # Review
 ## What is 1 thing you remember from our last class?
 
+- `code blocks` are groups of related statements
+  - `variable scope` (`scope`) - where a variable is "valid"
+- `if else`
+- `||` - `or` is true if at least 1 operand is true
+  - `logical operator` or `boolean operator`
+- `&&` - `and` operator; is true only if both operands are true
+- `!` - `not` operator; takes only 1 operand and returns the opposite boolean value
+
 ---
 
 # Control Flow - Loops
@@ -204,6 +212,10 @@ for(int index = 0; index < 32; index++){
 - `do-while` loops will run between 1 - infinite number of times
 - `while` and `do-while` loops are good when you don't know how many times you need to run
 - `for` loops will run a definite number of times
+
+---
+
+# Break
 
 ---
 
