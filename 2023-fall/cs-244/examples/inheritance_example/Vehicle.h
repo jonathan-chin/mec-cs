@@ -6,6 +6,7 @@
 class Vehicle {
 
     private:
+        static double priceOfGas;
         int mileage;
         std::string type;
         std::string color;
@@ -24,10 +25,14 @@ class Vehicle {
             std::string //color
         );
 
-        int getNumWheels();
+        int getNumWheels() const;
+        int getPriceOfGas() const;
+        // void setPriceOfGas(double); // non static member function
+        static void setPriceOfGas(double); // static member function
+        double addGas(int); // returns total cost of refueling
+        int getGas() const;
+
         /*
-        bool addGas();
-        int getGas();
         void print();
         int getMaxGas();
         int getTopSpeed();

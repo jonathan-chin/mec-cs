@@ -1,6 +1,13 @@
 #include "Vehicle.h"
 #include <string>
 
+// when using static member variables, also need to declare them
+double Vehicle::priceOfGas = 1; // set default value of static member variable
+
+void Vehicle::setPriceOfGas(double newPriceOfGas){ // static member function
+    priceOfGas = newPriceOfGas;
+}
+
 Vehicle::Vehicle(){
     mileage = 0; // assume vehicle is new and has never been driven
     type = "unknown";
@@ -26,8 +33,28 @@ Vehicle::Vehicle(
     color = newColor;
 }
 
-int Vehicle::getNumWheels(){
+int Vehicle::getNumWheels() const{
     return numWheels;
 }
 
+int Vehicle::getPriceOfGas() const{
+    return priceOfGas;
+}
+
+/*
+// non static member function
+void Vehicle::setPriceOfGas(double newPrice){
+    priceOfGas = newPrice;
+}
+*/
+
+double Vehicle::addGas(int amountToAdd){
+    double cost = amountToAdd * priceOfGas;
+    gas += amountToAdd;
+    return cost;
+}
+
+int Vehicle::getGas() const{
+    return gas;
+}
 // etc;
