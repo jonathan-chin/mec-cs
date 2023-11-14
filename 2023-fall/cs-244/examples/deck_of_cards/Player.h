@@ -2,12 +2,13 @@
 #define PLAYER_H
 
 #include "Card.h"
+#include "Deck.h"
 #include <vector>
 
 class Player{
     private:
         std::string name;
-        std::vector<Card> hand;
+        Deck hand;
         int wins;
         int losses;
         int score;
@@ -26,6 +27,7 @@ class Player{
         void addScore(int);
         std::string getName();
         void setName(std::string);
+        bool hasCardsInHand();
 };
 
 #endif
