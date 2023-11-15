@@ -11,6 +11,32 @@ paginate: true
 # Review
 ## What is 1 thing you remember from our last class?
 
+- `increment` and `decrement` operators
+  - `unary operator` that will add 1 or subtract 1 from a variable
+    - has one operand; only requires 1 input
+  - eg: `input++` or `input--` or `++input` or `--input`
+  - used mostly because we're lazy
+- loops
+  - repetition of code
+- `while` loop
+  - can run between 0 and infinite number of times
+  - used to repeat a block of code some number of times
+- `do-while` loop
+  - body of loop will execute at least once
+  - `do{/* body */}while(/* condition */)`
+- `for` loop
+  - different kind of `while` loop
+  - composed of 4 parts
+    - `initialization`
+	- `condition`
+	- `update`
+	- `code block` / `body`
+  - runs for a specific number of iterations
+  - has a lesser chance of being an `infinite loop`
+- "standard" `for` loop
+  - `for(int index = 0; index < 42; index++){}`
+
+
 ---
 
 # Code Along
@@ -84,7 +110,7 @@ for(int index = 0; index < 100; index++){
 # Input Validation 2/
 
 ```
-int age = -1; // set initial value outside range of reasonable values
+int age;
 
 do{
   std::cout << "What is your age? ";
@@ -92,11 +118,7 @@ do{
   if(age < 5 || age > 99){
     std::cout << "Really? Try again.\n";
   }
-}while(age >= 5 && age <= 99)
-
-// pay attention to the boolean expressions
-// they are "opposite" since one checks for false
-// and the other checks for true
+}while(age < 5 || age > 99)
 ```
 
 ---
