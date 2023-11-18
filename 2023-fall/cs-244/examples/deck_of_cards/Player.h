@@ -8,7 +8,7 @@
 class Player{
     private:
         std::string name;
-        Deck hand;
+        std::vector<Card> hand;
         int wins;
         int losses;
         int score;
