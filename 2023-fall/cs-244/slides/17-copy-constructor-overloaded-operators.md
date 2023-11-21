@@ -3,13 +3,22 @@ theme: default
 paginate: true
 ---
 
-# 16 - Copy Constructor and Overloaded Operators
+# 17 - Copy Constructor and Overloaded Operators
 2023-11-21
 
 ---
 
 # Review
 ## What is 1 thing you remember from last week?
+
+- `inheritance` - extending code from a parent class
+  - any new code that is not applicable to parent class, you can add to child class
+  - part of `extensibility`
+- `this` - is a pointer (or reference to the object's memory address) within a member function
+- `static members` can be accessed by referring to the class instead of a specific object
+  - used for anything that affects all objects regardless of of individualization
+- `const member functions` - a quick and dirty way to mark a member function so that it can't modify other object members
+  - this function treats all other members as constant
 
 ---
 
@@ -80,7 +89,7 @@ class Train{
 // Train.h
 class Train{
   public:
-    boolean operator>(const Train &);
+    bool operator>(const Train &);
 }
 
 // Train.cpp

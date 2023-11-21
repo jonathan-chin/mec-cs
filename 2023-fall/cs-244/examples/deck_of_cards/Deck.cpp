@@ -14,6 +14,10 @@ Deck::Deck(){
     }
 }
 
+Deck::Deck(std::vector<Card> newCards){
+    cards = newCards;
+}
+
 void Deck::print(){
     // for debugging only
     for(Card &card : cards){
@@ -40,8 +44,36 @@ void Deck::shuffle(){
     }
 }
 
-Card Deck::dealOne(){
-    Card lastCard = cards[cards.size() - 1];
+void Deck::addCard(Card newCard){
+    cards.push_back(newCard);
+}
+
+void Deck::addCard(Card newCard, int index){
+    // todo: check if index is within range
+    cards.insert(
+        cards.begin() + index, // shortcut to get an iterator and move index spots forward from it
+        newCard
+    );
+}
+
+Card Deck::removeCard(){
+    Card topCard = cards[cards.size() - 1];
     cards.pop_back();
-    return lastCard;
+    return topCard;
+}
+
+// note: index is array based and starts at 0
+Card Deck::removeCard(int index){
+    // todo: check if index is within range
+    Card removedCard = cards[index];
+    cards.erase(cards.begin() + index);
+    return removedCard;
+}
+
+void Deck::setCards(std::vector<Card> newCards){
+    cards = newCards;
+}
+
+std::vector<Card> Deck::getCards(){
+    return cards;
 }
