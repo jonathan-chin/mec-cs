@@ -3,11 +3,12 @@
 #include "Player.h"
 #include "Card.h"
 
-
-class WarPlayer : public Player{ // inheritance is public by default; may need to change
-    public:
-        Card playTopCard();
-        void addToDiscardPile(Card);
+class WarPlayer : public Player // inheritance is public by default; may need to change
+{
+public:
+  Card playTopCard();
+  void addToDiscardPile(Card);
+  void shuffleDiscardIntoHand();
 };
 
 #endif

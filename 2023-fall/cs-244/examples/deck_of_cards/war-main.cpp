@@ -12,18 +12,33 @@ int main()
     deck.shuffle();
     for (int index; index < 26; index++)
     {
-        player1.drawCard(deck.dealOne());
-        player2.drawCard(deck.dealOne());
+        player1.addCardToHand(deck.removeCard());
+        player2.addCardToHand(deck.removeCard());
     }
 
     // round of play
     Card player1Card;
     Card player2Card;
 
+    // since players shuffle their discard pile into their hand as needed WITHIN the loop
+    // this condition is sufficient
+    // within the loop, they will shuffle their discard pile into their hand
+    // if their discard pile is empty, their hand will be empty
     while (player1.hasCardsInHand() && player2.hasCardsInHand())
     {
+        // play cards from each player
         player1Card = player1.playTopCard();
         player2Card = player2.playTopCard();
+
+        // reshuffle discard pile into hand if needed
+        if (!player1.hasCardsInHand())
+        {
+            player1.shuffleDiscardIntoHand();
+        }
+        if (!player2.hasCardsInHand())
+        {
+            player2.shuffleDiscardIntoHand();
+        }
 
         if (player1Card.getValue() > player2Card.getValue())
         {
