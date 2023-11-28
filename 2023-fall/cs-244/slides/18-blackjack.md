@@ -10,7 +10,7 @@ paginate: true
 
 # Agenda
 
-- LinkedIn Workshop
+- Resume Workshop
 - Review War assignment
 - Begin Blackjack
 
@@ -30,13 +30,15 @@ paginate: true
 - `Aces` are only counted as 1
   - later, when we refactor, we can allow aces to be counted as 1 or 11
 - there is no betting
-  - you play against the dealer and either win or lose
+  - you play against the dealer and either win, lose, or tie
+- no insurance, push, split, or doubling down, surrender
+- will only implement `hitting` or `standing`
 
 ---
 
 # Running Games
 
-- your code will be played at a "table" with other student's code
+- your code will be played at a "table" with other students' code
 - will run for X number of iterations
 - top players will advance, elimination style
 
