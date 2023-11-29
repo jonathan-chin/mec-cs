@@ -53,3 +53,9 @@ You can assume that the user enters at least 2 for how many numbers they want to
 ---
 
 # Problem 2 - Min/Max
+
+Use generative AI (eg ChatGPT) to generate a C++ statement that will declare and initialize an array of 1000 random integers. Hardcode that statement into your program.
+
+Write C++ code to `programmatically` find the smallest number in that array. Your code should still work if you replace the array declaration and initialization with another set of numbers.
+
+Once you have this, modify your code to find the largest number.
