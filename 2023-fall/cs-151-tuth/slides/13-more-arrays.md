@@ -8,8 +8,27 @@ paginate: true
 
 ---
 
+# Final Exam Date
+
+Thursday December 14 or Tuesday December 19
+
+---
+
 # Review
 ## What is 1 thing you remember about last class?
+
+- `array` - data type that holds multiple values of the same data type
+  - it is an ordered collection of things
+- `arrays` take up continuous spots in memory (RAM)
+- exclusively use `[]`
+- can assign values to different spots in the array
+  - syntax: `temps[2] = -5;`
+- remember: array indices start at 0
+- `indexing into an array` (ie: reading at spot in the array) - syntax: `temps[0];`
+- remember: when declared, arrays still have uninitialized values and cannot be fully trusted
+- `index out of bounds` errors
+- in C++, arrays don't track their own size
+- to declare an array: `int temps[3];`
 
 ---
 
