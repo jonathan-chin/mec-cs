@@ -1,6 +1,7 @@
 #ifndef FIRST_NAME_BLACKJACK_PLAYER_H
 #define FIRST_NAME_BLACKJACK_PLAYER_H
 #include "Player.h"
+#include "Deck.h"
 #include <vector>
 #include <string>
 
