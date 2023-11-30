@@ -3,13 +3,22 @@ theme: default
 paginate: true
 ---
 
-# 11 - Arrays
+# 12 - Arrays
 2023-11-21
 
 ---
 
 # Review
 ## What is 1 thing you remember about last class?
+
+- `break` - ends a loop immediately
+  - used when condition logic is complicated
+- `continue` - skips the rest of the loop and checks the condition again
+- `input validation` - make sure that the user is inputting the right data
+  - could protect against accidental bad inputs
+  - could protect against malicious hacking
+  - one `coding pattern` is to use a `do-while` loop
+
 
 ---
 
@@ -132,8 +141,11 @@ for(double stock_price : stock_prices){
 
 ---
 
-# Coding Lab
+# Break
 
+---
+
+# Coding Lab
 
 ---
 
