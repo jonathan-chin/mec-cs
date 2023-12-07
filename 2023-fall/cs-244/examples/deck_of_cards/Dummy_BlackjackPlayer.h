@@ -7,13 +7,11 @@
 
 class Dummy_BlackjackPlayer : public BlackjackPlayer
 {
-private:
-
 public:
         // should return "hit" or "stand"
         std::string getAction(
-            std::vector<Deck>, // all the player's and dealer's hands
-            Deck // cards that have already been played in previous rounds
+            std::vector<Card>, // all the player's and dealer's hands
+            std::vector<Card> // cards that have already been played in previous rounds
         );
 };
 

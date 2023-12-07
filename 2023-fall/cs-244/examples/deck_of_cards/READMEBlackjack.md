@@ -20,4 +20,4 @@ This will be used to run all the games between players. A small version of it is
 
 # compiling
 
-`g++ blackjack-main.cpp FIRST_NAME_BlackjackPlayer.cpp DummyBlackjackPlayer.cpp BlackjackPlayer.cpp Player.cpp Deck.cpp Card.cpp -o blackjack.out`
+`g++ blackjack-main.cpp FIRST_NAME_BlackjackPlayer.cpp Dummy_BlackjackPlayer.cpp BlackjackDealer.cpp BlackjackPlayer.cpp Player.cpp Deck.cpp Card.cpp -o blackjack.out`

@@ -1,8 +1,8 @@
 #include "Dummy_BlackjackPlayer.h"
 
 std::string Dummy_BlackjackPlayer::getAction(
-    std::vector<Deck> otherHands,
-    Deck discard)
+    std::vector<Card> otherHands,
+    std::vector<Card> discard)
 {
   if (rand() % 2 == 0)
   {

@@ -25,6 +25,14 @@ void Deck::print(){
     }
 }
 
+void Deck::clear(){
+    cards.clear();
+}
+
+bool Deck::isEmpty(){
+    return cards.empty();
+}
+
 void Deck::shuffle(){
     // algorithm for shuffling:
     // swap two random elements

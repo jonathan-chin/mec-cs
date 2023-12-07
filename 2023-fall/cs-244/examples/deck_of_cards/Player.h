@@ -13,6 +13,10 @@ class Player{
         int losses;
         int score;
     public:
+        // need to define an default constructor
+        // so that hand is created with an empty deck instead of a full one
+        Player();
+
         void addCardToHand(Card);
 
         // removes card from hand and returns it
@@ -21,6 +25,10 @@ class Player{
 
         // returns a copy of hand
         Deck showCards();
+
+        // sets hand to an empty vector
+        void emptyHand();
+
         int getWins();
         void addWin(int);
         void addWin();

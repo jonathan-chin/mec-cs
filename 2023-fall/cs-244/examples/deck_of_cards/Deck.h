@@ -9,6 +9,7 @@ class Deck {
         std::vector<Card> cards;
 
     public:
+        void clear(); // empties deck
         void shuffle();
         void print(); // only for debugging
 
@@ -26,6 +27,7 @@ class Deck {
         // removes any card from deck
         Card removeCard(int);
 
+        bool isEmpty();
         void setCards(std::vector<Card>); // replace existing cards
 
         Deck(); // default constructor that fills with standard 52 card deck

@@ -6,14 +6,12 @@
 #include <string>
 
 class BlackjackPlayer : public Player {
-    private:
-
     public:
         // should return "hit" or "stand"
         // is declared as virtual, meaning that it MUST be implemented by other classes that inherit from it
         virtual std::string getAction(
-            std::vector<Deck>, // all the player's and dealer's hands
-            Deck // cards that have already been played in previous rounds
+            std::vector<Card>, // all the player's and dealer's hands
+            std::vector<Card> // cards that have already been played in previous rounds
         ) = 0;
 };
 
