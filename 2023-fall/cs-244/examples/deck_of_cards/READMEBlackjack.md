@@ -18,6 +18,27 @@ I've provided an example of how you can write your Blackjack Player class. Dummy
 
 This will be used to run all the games between players. A small version of it is provided for you so that you can test your class against the Dummy Blackjack Player and see how well it does. Once all students have sent in their classes, this will be updated to play all classes against each other.
 
+# gathering all the files
+
+You should put the following files in a single directory:
+
+- blackjack-main.cpp
+- FIRST_NAME_BlackjackPlayer.h
+- FIRST_NAME_BlackjackPlayer.cpp
+- Dummy_BlackjackPlayer.h
+- Dummy_BlackjackPlayer.cpp
+- BlackjackDealer.h
+- BlackjackDealer.cpp
+- BlackjackPlayer.h
+- BlackjackPlayer.cpp
+- Player.h
+- Player.cpp
+- Deck.h
+- Deck.cpp
+- Card.h
+- Card.cpp
+
+
 # compiling
 
 `g++ blackjack-main.cpp FIRST_NAME_BlackjackPlayer.cpp Dummy_BlackjackPlayer.cpp BlackjackDealer.cpp BlackjackPlayer.cpp Player.cpp Deck.cpp Card.cpp -o blackjack.out`
