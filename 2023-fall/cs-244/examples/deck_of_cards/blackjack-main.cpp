@@ -5,6 +5,7 @@
 #include "Deck.h"
 #include <vector>
 #include <iostream>
+#include <memory>
 #include <stdlib.h> // for rand and srand
 #include <time.h>   // for time for srand
 
@@ -172,7 +173,6 @@ int main()
             if (playerHandValue > 21)
             {
                 std::cout << "p" << index << " has busted!\n";
-                //players[0]->addWin();
                 players[index]->addLoss();
                 continue;
             }
@@ -182,7 +182,6 @@ int main()
                 // no need to check what the player's actual score is
                 // since we've already checked if they busted
                 std::cout << "p" << index << " wins!\n";
-                //players[0]->addLoss();
                 players[index]->addWin();
                 continue;
             }
@@ -191,7 +190,6 @@ int main()
             if (playerHandValue > dealerHandValue)
             {
                 std::cout << "p" << index << " wins!\n";
-                //players[0]->addLoss();
                 players[index]->addWin();
                 continue;
             }
@@ -200,7 +198,6 @@ int main()
                 // for simplicity, dealer gets the "House Edge"
                 // and is considered to win on ties
                 std::cout << "p" << index << " loses!\n";
-                //players[0]->addWin();
                 players[index]->addLoss();
                 continue;
             }
