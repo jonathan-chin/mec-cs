@@ -53,6 +53,7 @@ You will need these files in order to work on this program. You `cannot modify` 
   - for example, you will likely need to use the `Deck` class
   - please also print out all game actions, such as "player 1 asks for 8s"
   - when the game is finished, print out who has won
+
 These are the only files you will ultimately submit. You should not need to include any other files.
 
 ## Grading Rubric
