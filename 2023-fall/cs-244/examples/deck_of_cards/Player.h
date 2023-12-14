@@ -8,7 +8,6 @@
 class Player{
     private:
         std::string name;
-        Deck hand;
         int wins;
         int losses;
         int score;
@@ -17,6 +16,8 @@ class Player{
         // so that hand is created with an empty deck instead of a full one
         Player();
 
+  Deck hand; // temporarily made public, should technically be made protected
+  
         void addCardToHand(Card);
 
         // removes card from hand and returns it
