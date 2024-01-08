@@ -8,6 +8,18 @@ Code each `in its own file` named `week_2_problem_#.py` where `#` is the problem
 
 ---
 
+# Scoring Rubric
+
+| requirement                  | points |
+|------------------------------|--------|
+| solves the problem           | 3      |
+| includes meaningful comments | 2      |
+| compiles and runs            | 1      |
+|                              |        |
+| total                        | 6      |
+
+---
+
 # Problem 1
 Courtesy of [Harvard CS50P](https://cs50.harvard.edu/python/2022/psets/1/deep/)
 
