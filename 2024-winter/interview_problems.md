@@ -10,3 +10,5 @@
 10. [Count Vowel Consonant](https://app.codesignal.com/challenge/wq96QyEqEBvjM7k5C)
 11. [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 12. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+13. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)
+14. [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)
