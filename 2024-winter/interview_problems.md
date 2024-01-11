@@ -8,3 +8,5 @@
 8. [Sqrt X](https://leetcode.com/problems/sqrtx/)
 9. [Two Sum](https://leetcode.com/problems/two-sum/)
 10. [Count Vowel Consonant](https://app.codesignal.com/challenge/wq96QyEqEBvjM7k5C)
+11. [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+12. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
