@@ -49,3 +49,9 @@ ___
 More Javascript & JQuery
 ### - [Morning session recording](https://us02web.zoom.us/rec/share/ce7CNl1GM3-KI-VFf_CM-04kaBMQqgzjzYVfPmPCPU7PfXCosdGeYT_eXhJbIqsI.RR-M33UayjsED6Q8?startTime=1674485919000)
 ### - Afternoon session not recorded (lab session)
+___
+## Day 12, Tuesday January 24th
+Project Troubleshooting and Tips
+### - [Morning session recording](https://us02web.zoom.us/rec/share/3eRDIDoz1v8JfuuMl3XF7CjUXr_jgoMID1mzpSmuG6enALtIHGwc1zL9TrppoHiF.DELwQ2R8mPnX7Nxv?startTime=1674572289000)
+Connecting Replit to GitHub
+### - [Morning session recording](https://us02web.zoom.us/rec/share/r09wDpU9twi11QxIYetUDkoRMjrEBST-L0Iptzpom5rvXDTnht1k0CRtbJ-VMUnH.pJYkNmMl_4_FX-1u?startTime=1674582916000)
