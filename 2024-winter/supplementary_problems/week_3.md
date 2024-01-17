@@ -1,21 +1,98 @@
-Deep Thought
-“All right,” said the computer, and settled into silence again. The two men fidgeted. The tension was unbearable.
-“You’re really not going to like it,” observed Deep Thought.
-“Tell us!”
-“All right,” said Deep Thought. “The Answer to the Great Question…”
-“Yes…!”
-“Of Life, the Universe and Everything…” said Deep Thought.
-“Yes…!”
-“Is…” said Deep Thought, and paused.
-“Yes…!”
-“Is…”
-“Yes…!!!…?”
-“Forty-two,” said Deep Thought, with infinite majesty and calm.”
+# Supplementary Coding Problems
 
-— The Hitchhiker’s Guide to the Galaxy, Douglas Adams
+---
 
-In deep.py, implement a program that prompts the user for the answer to the Great Question of Life, the Universe and Everything, outputting Yes if the user inputs 42 or (case-insensitively) forty-two or forty two. Otherwise output No.
+If you have already completed the readings and problems in Runestone Academy, here are some supplementary problems to work on. These should be written in Python.
+
+Code each `in its own file` named `week_2_problem_#.py` where `#` is the problem number. As you complete each problem, [submit them here](https://airtable.com/app0PN2SzDnP1Qnzi/pagCUNiG0QbQtBBB4/form)
+
+---
+
+# Scoring Rubric
+
+| requirement                  | points |
+|------------------------------|--------|
+| solves the problem           | 3      |
+| includes meaningful comments | 2      |
+| compiles and runs            | 1      |
+|                              |        |
+| total                        | 6      |
+
+---
+
+# Problem 1
+Courtesy of [Harvard CS50P](https://cs50.harvard.edu/python/2022/psets/2/camel/)
+
+  CamelCase
+  
+In some languages, it’s common to use camel case (otherwise known as “mixed case”) for variables’ names when those names comprise multiple words, whereby the first letter of the first word is lowercase but the first letter of each subsequent word is uppercase. For instance, whereas a variable for a user’s name might be called name, a variable for a user’s first name might be called firstName, and a variable for a user’s preferred first name (e.g., nickname) might be called preferredFirstName.
+
+Python, by contrast, recommends snake case, whereby words are instead separated by underscores (_), with all letters in lowercase. For instance, those same variables would be called name, first_name, and preferred_first_name, respectively, in Python.
+
+In a file called camel.py, implement a program that prompts the user for the name of a variable in camel case and outputs the corresponding name in snake case. Assume that the user’s input will indeed be in camel case.
 
 Hints
-No need to convert the user’s input to an int if you check for equality with "42", a str, rather than 42, an int!
-It’s okay if your output or the user’s wraps onto multiple lines.
+Recall that a str comes with quite a few methods, per docs.python.org/3/library/stdtypes.html#string-methods.
+Much like a list, a str is “iterable,” which means you can iterate over each of its characters in a loop. For instance, if s is a str, you could print each of its characters, one at a time, with code like:
+for c in s:
+    print(c, end="")
+    
+---
+
+# Problem 2
+Courtesy of [Harvard CS50P](https://cs50.harvard.edu/python/2022/psets/2/coke/)
+
+  Coke Machine
+
+Suppose that a machine sells bottles of Coca-Cola (Coke) for 50 cents and only accepts coins in these denominations: 25 cents, 10 cents, and 5 cents.
+
+In a file called coke.py, implement a program that prompts the user to insert a coin, one at a time, each time informing the user of the amount due. Once the user has inputted at least 50 cents, output how many cents in change the user is owed. Assume that the user will only input integers, and ignore any integer that isn’t an accepted denomination.
+
+---
+
+# Problem 3
+Courtesy of [Harvard CS50P](https://cs50.harvard.edu/python/2022/psets/2/twttr/)
+
+  Just setting up my twttr
+  
+When texting or tweeting, it’s not uncommon to shorten words to save time or space, as by omitting vowels, much like Twitter was originally called twttr. In a file called twttr.py, implement a program that prompts the user for a str of text and then outputs that same text but with all vowels (A, E, I, O, and U) omitted, whether inputted in uppercase or lowercase.
+
+---
+
+# Problem 4
+Courtesy of [Harvard CS50P](https://cs50.harvard.edu/python/2022/psets/2/plates/)
+
+Vanity plates
+
+In Massachusetts, home to Harvard University, it’s possible to request a vanity license plate for your car, with your choice of letters and numbers instead of random ones. Among the requirements, though, are:
+
+“All vanity plates must start with at least two letters.”
+“… vanity plates may contain a maximum of 6 characters (letters or numbers) and a minimum of 2 characters.”
+“Numbers cannot be used in the middle of a plate; they must come at the end. For example, AAA222 would be an acceptable … vanity plate; AAA22A would not be acceptable. The first number used cannot be a ‘0’.”
+“No periods, spaces, or punctuation marks are allowed.”
+In plates.py, implement a program that prompts the user for a vanity plate and then output Valid if meets all of the requirements or Invalid if it does not. Assume that any letters in the user’s input will be uppercase. Structure your program per the below, wherein is_valid returns True if s meets all requirements and False if it does not. Assume that s will be a str. You’re welcome to implement additional functions for is_valid to call (e.g., one function per requirement).
+
+def main():
+    plate = input("Plate: ")
+    if is_valid(plate):
+        print("Valid")
+    else:
+        print("Invalid")
+
+
+def is_valid(s):
+    ...
+
+
+main()
+
+---
+
+# Problem 5
+Courtesy of [Harvard CS50P](https://cs50.harvard.edu/python/2022/psets/1/meal/)
+
+Nutrition Facts
+
+The U.S. Food & Drug Adminstration (FDA) offers downloadable/printable posters that “show nutrition information for the 20 most frequently consumed raw fruits … in the United States. Retail stores are welcome to download the posters, print, display and/or distribute them to consumers in close proximity to the relevant foods in the stores.”
+
+In a file called nutrition.py, implement a program that prompts consumers users to input a fruit (case-insensitively) and then outputs the number of calories in one portion of that fruit, per the FDA’s poster for fruits, which is also available as text. Capitalization aside, assume that users will input fruits exactly as written in the poster (e.g., strawberries, not strawberry). Ignore any input that isn’t a fruit.
