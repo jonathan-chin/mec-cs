@@ -83,7 +83,7 @@ main()
 ---
 
 # Problem 5
-Courtesy of [Harvard CS50P](https://cs50.harvard.edu/python/2022/psets/1/meal/)
+Courtesy of [Harvard CS50P](https://cs50.harvard.edu/python/2022/psets/2/nutrition/)
 
 Nutrition Facts
 
