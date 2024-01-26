@@ -19,6 +19,10 @@ paginate: true
 
 ---
 
+# Intro to TA
+
+---
+
 # Syllabus Review
 
 - All important documents, including slides and our syllabus, will be available on our [GitHub](https://github.com/jonathan-chin/mec-cs)
@@ -81,9 +85,40 @@ paginate: true
 
 ---
 
+# Break
+
+---
+
 # Cognitive model of a computer
 ## If you had to explain what a computer is, what would you say?
 
+- a device that connects you to the internet and applications
+- a bunch of components (hardware) to run the software
+- a machine capable of receiving information for a particular task
+  - to process certain things
+  - to process certain numbers and give a solution
+- a combination of both software and hardware
+- a tool that helps perform tasks
+  - we already know how to do it, it just makes it faster and more efficient
+- connects us / the world
+- a device built to receive, process, determine what to do with data
+  - eg: show a picture, display a file, play music
+  - not built to assume things
+  - have to be explicit
+- information is:
+  - code
+  - data
+  - numbers
+  - words, library, dictionary
+  - sound
+- tasks are:
+  - calculate
+  - send email
+  - search / find info
+  - texting
+  - print something out
+  - speak something aloud
+  - to organize / sort
 ---
 
 # io
@@ -125,10 +160,6 @@ paginate: true
 
 ---
 
-# Break
-
----
-
 # Lab 1
 
 Please create a new repl and copy, character for character, the following code:
@@ -138,8 +169,7 @@ Please create a new repl and copy, character for character, the following code:
 
 int main(){
   std::cout << "Hello World\n";
-  std::cout << "How are you doing?"'
-  return 0;
+  std::cout << "Happy Friday!";
 }
 ```
 
@@ -161,5 +191,6 @@ int main(){
 
 # For Next Week
 
-- read Chapter 1 (pages 69-135)
-- quizzes will start next week (based around the first half of the chapter)
+- read Chapter 1
+  - you don't have to do any of the questions if you don't want to
+- quizzes will start next week
