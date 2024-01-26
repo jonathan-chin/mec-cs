@@ -4,7 +4,7 @@
 
 If you have already completed the readings and problems in Runestone Academy, here are some supplementary problems to work on. These should be written in Python.
 
-Code each `in its own file` named `week_2_problem_#.py` where `#` is the problem number. As you complete each problem, [submit them here](https://airtable.com/app0PN2SzDnP1Qnzi/pagCUNiG0QbQtBBB4/form)
+Code each `in its own file` named `week_3_problem_#.py` where `#` is the problem number. As you complete each problem, [submit them here](https://airtable.com/app0PN2SzDnP1Qnzi/pagCUNiG0QbQtBBB4/form)
 
 ---
 
