@@ -58,6 +58,11 @@ Labs will require you to write SQL code that solves a particular task or problem
 | Runs without errors | 0-2 |
 | Total | 10 |
 
+## Quizzes
+
+Short quizzes will be given at the start of every class, within the first 20 minutes. They are designed to assess your general knowledge of the week's material but not your mastery. If you have done the assigned reading, you should be fine. You must be physically present in class in order to take the quiz. If you arrive late and the quiz is still going on, you can still take it but may not be given extra time. If you arrive late and the quiz has already finished, you have unfortunately missed it and will not be able to take it.
+
+
 ## Assignments
 
 Assignments are similar to Labs in that you will be required to write SQL code and rationale, only that Assignments will be more complex. You will generally receive one Assignment per week with 7 days to complete it. 

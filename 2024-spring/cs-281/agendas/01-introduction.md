@@ -1,12 +1,13 @@
 # 01 Introduction
 ## 2024-01-29
 
-1. Review syllabus
-2. [Overview Slides](https://www.db-book.com/slides-dir/PDF-dir/ch1.pdf) pages 1-16
-3. Introduction to `.sql` files using [provided files](https://www.db-book.com/university-lab-dir/sample_tables-dir/index.html)
-4. [online sqlite tool](https://www.db-book.com/university-lab-dir/sqljs.html)
-5. Structure of a SQL statement
-6. Coding Lab
+1. Instructional staff introduction
+2. Review syllabus
+3. [Overview Slides](https://www.db-book.com/slides-dir/PDF-dir/ch1.pdf) pages 1-16
+4. Introduction to `.sql` files using [provided files](https://www.db-book.com/university-lab-dir/sample_tables-dir/index.html)
+5. [online sqlite tool](https://www.db-book.com/university-lab-dir/sqljs.html)
+6. Structure of a SQL statement
+7. Coding Lab
 
 ---
 
