@@ -92,6 +92,20 @@ paginate: true
 # Cognitive model of a computer
 ## If you had to explain what a computer is, what would you say?
 
+- a tool to help you simplify your daily tasks
+  - equations, writing
+- a piece of technology, a program to receive and keep data
+- a function - put an input, get an output
+  - eg: search engine: query -> results
+- tech that utilizes hardware and written softare that does a task that the user creates
+- a piece of technology to react to information that is given
+- data could be statistics / numbers, keyboard presses, mouse movements, button presses, electrical signals ie from wifi or the internet
+- RAM, motherboards, integrated chips
+
+
+
+
+
 ---
 
 # io

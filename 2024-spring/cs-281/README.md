@@ -69,6 +69,16 @@ Assignments are similar to Labs in that you will be required to write SQL code a
 
 Late submissions will incur a 0.5 point penalty per 24 hours. **No submissions will be accepted after 7 days.**
 
+## Grade Adjustment
+
+To allow for some leeway in grading, your lowest score in each of the following grade components will be dropped:
+
+- Your lowest day of labs, since we will be doing multiple labs per day
+- Your lowest quiz
+- Your lowest assignment
+
+Any missing grade component is automatically graded as a 0. For example, if you miss a lab or do not submit an assignment, it will be graded as a 0.
+
 ## Grades of Incomplete (INC)
 INC grades are at the discretion of the instructor and only given in very specific circumstances. An `INC` grade is given when the student the student is doing passing work during a semester and who for some justifiable reason has not been able to complete a single, major assignment or misses a final exam. Check the College catalog for further information regarding INC grades.
 
