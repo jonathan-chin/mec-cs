@@ -3,7 +3,7 @@ theme: default
 paginate: true
 ---
 
-# 01 - Introduction to our course!
+# 01 02 - Introduction to our course and our first lab
 2024-01-26
 
 ---
