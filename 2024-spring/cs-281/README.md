@@ -5,7 +5,7 @@ Course Syllabus
 # CS 281 - Database Systems
 
 ## Course Details
-Instructor: Jon Chin, jonathan.chin@mec.science
+Instructor: Jon Chin, jonathan.chin@mec.science  
 3 credits; 3 class hours  
 Mondays and Wednesdays 10:00am - 11:40am EST  
 Academic Building 1 Room C09
