@@ -11,6 +11,14 @@ paginate: true
 # Review
 ## What is 1 thing you remember about last class?
 
+- trying to describe laptop / technology
+- a computer is descibed with IO
+  - receive `input`
+  - `process` information - to create or alter information
+  - `output` that information - writing to file, sending data through hdmi, sending to LCD
+- computers don't have forgiving syntax
+
+
 ---
 
 # Intro to Repl.it
