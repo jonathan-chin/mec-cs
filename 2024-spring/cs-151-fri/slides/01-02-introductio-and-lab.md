@@ -175,7 +175,7 @@ int main(){
 
 ---
 
-# Lab 1
+# Lab 1 Submission
 
 - make sure that your code `compiles` and `runs`
 - submit via Blackboard
