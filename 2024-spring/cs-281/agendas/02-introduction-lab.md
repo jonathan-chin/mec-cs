@@ -30,3 +30,11 @@ ON comparison;
 
 when a column name is ambiguous, use the table_name.column_name format
 ```
+
+---
+
+# For Next Week
+
+- read Chapter 1
+  - no need to do the questions, but they will be similar to quizzes / assignments
+- quizzes start next week
