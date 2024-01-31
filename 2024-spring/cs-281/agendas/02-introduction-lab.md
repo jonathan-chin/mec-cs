@@ -1,5 +1,5 @@
-# 01 Introduction
-## 2024-01-29
+# 02 Introduction Lab
+## 2024-01-31
 
 1. review
 2. [Finish slides](https://www.db-book.com/slides-dir/PDF-dir/ch1.pdf) pages 1-16
