@@ -14,6 +14,25 @@
 # Review
 ## What is 1 thing you remember from our last class?
 
+- prior to database systems, we had a loose collection of files
+- reasons why database systems developed
+  - inconsistencies (data types, updating)
+  - easier link data between tables
+  - more fine grained control over permissions
+  - concurrent access by multiple users
+- `schema` - a blueprint / structure of the tables in a database
+  - similar to classes
+- physical - isolation
+  - outside of the scope of our course
+- `data model` - includes relationships between tables, the features / structure / schema of the tables, the constraints, data itself
+  - `relational` databases
+- `Turing Test` - a set of requirements for a programming language to pass in order to be considered fully featured
+  - does not pass test: `HTML`
+  - does pass test: `C++`, `python`, `Javascript`
+- flavors of `SQL`
+  - eg: `MySQL`, `SQLite`, `postgres`, `aurora`
+- `views` - slices of table depending on needs of viewer / user
+
 ---
 
 # Example SQL commands
