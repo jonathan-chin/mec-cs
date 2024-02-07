@@ -11,6 +11,18 @@ paginate: true
 # Review
 ## What is 1 thing you remember about last class?
 
+- learned how to print a string
+  - `#include <iostream>`
+  - `std::cout << "hello world";`
+- learned how to use repl.it
+  - when making a new repl, you have to specify the language
+  - `IDE` - Integrated Development Environment
+  - where you can write, compile, and run code in the same space
+  - name your code with something specific
+  - `join link` allows others to edit / view your code simultaneously
+- learned how to `fork`
+  - get a copy of the code but in your own system
+
 ---
 
 # The CPU
@@ -133,7 +145,7 @@ return
 # Operators
 
 - symbols that define a particular transformation of data
-- many are familiar: `=`, `+`, `-`, `/`, and `*`
+- many are familiar: `+`, `-`, `/`, and `*`
 - some are unfamiliar: `++`, `!`, `&&`, and `||`
 
 ---
@@ -186,7 +198,7 @@ for(
 
 - `syntax` or `compilation` errors - some fundamental rule of the programming language is wrong
   - code will `not` run
-- `logic` errors - some mistake in the reasoning but not logic
+- `logic` errors - some mistake in the reasoning but not syntax
   - may produce the wrong output
   - eg: printing an image upside down or adding 1 instead of subtracting 1
 - `runtime` errors - issues that only come up under specific circumstances
