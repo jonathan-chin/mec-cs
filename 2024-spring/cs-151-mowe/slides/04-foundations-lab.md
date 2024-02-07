@@ -38,3 +38,11 @@ paginate: true
 - runtime error - when code is run in a specific circumstance / context
   - could result in crashing program / machine
   - eg: divide by 0
+
+---
+
+# For Next Week
+
+- read Chapter 2
+- quiz on first half (2.1 - 2.8)
+- assignment will be posted
