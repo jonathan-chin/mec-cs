@@ -3,13 +3,35 @@ theme: default
 paginate: true
 ---
 
-# 05 06 - Foundations in Computer Science and Coding Lab
+# 05 06 - Introduction to C++ and Coding Lab
 2024-02-09
 
 ---
 
 # Review
 ## What is 1 thing you remember about last class?
+
+- low level languages are written in a way that's easy for a cpu to understand
+  - written as `binary` or `0s and 1s`
+- high level languages are very easy for humans to understand and usually uses English words
+- high level needs to be converted to low level
+  - called compilation, done through a compiler
+  - `compilation error` - fundamental rule of the programming language is violated
+- psuedocode - general overview of the problem solving approach
+  - a draft of how you will write the program
+- operators - defines a particular transformation of data
+  - `+` and `-` : adds and minuses
+- variables - data that can be changed
+- logic errors - mistake in reasoning / logic
+  - eg: coded `+` instead of a `-`
+  - eg: `if(age < 18){allowToVote();}`
+- runtime errors - issues that come up under specific circumstances
+  - eg: dividing by 0
+  - eg: ask the user for their age, they enter a negative number
+- syntax / compilation error - the code you wrote violates the rules of the programming language
+  - eg: misspelling a variable / keyword
+- PEMDAS matters!
+- variables can and usually do get changed through code
 
 ---
 
@@ -42,9 +64,11 @@ paginate: true
 # Variable Declaration
 
 - `declaring` a variable means to let the compiler know you are going to use a variable
-- the syntax is `variable_type variable_name;`
+- the syntax is `data_type variable_name;`
+  - eg: `int number_of_countries;`
 - if you know right away what value you want to hold, you can set it in the same `declaration` statement
   - this is called `initialization`
+  - eg: `int number_of_countries = 10;`
 - once you declare a variable, you do not need to specify its `type` when you use it again
 
 ---
@@ -56,6 +80,7 @@ double tax;
 double total;
 double bill = 11.50;
 tax = bill * 0.08;
+// tax <- bill * 0.08; // not real C++
 total = bill + tax;
 ```
 

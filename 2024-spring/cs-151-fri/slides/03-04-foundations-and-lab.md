@@ -11,6 +11,25 @@ paginate: true
 # Review
 ## What is 1 thing you remember about last class?
 
+- C++ is a syntax strict language
+  - strongly typed language
+- the core of computing programming is 3 steps
+  - input - eg: keyboard presses, touch screen, microphone, signals from other computers
+  - process - eg: calculations, finding average, finding sum
+  - output - eg: saving to hard drive, storing information, images on monitor, sounds from speaker, signals to other computers
+- parts of a C++ program
+  - `#include`
+  - whitespace - spaces, tabs, or blank lines
+    - they help us organize code
+  - `;` or semicolons are needed for every statement
+  - when outputting / printing, \n is a new line
+  - strings start and end with " not '
+  - to print things out, use `std::cout <<`
+  - `main()` is the principle function in any program
+- comments are incredibly important
+- `repl.it` - `IDE` or set of tools that making coding easier
+  - `Integrated Development Environment`
+
 ---
 
 # The CPU
@@ -133,7 +152,7 @@ return
 # Operators
 
 - symbols that define a particular transformation of data
-- many are familiar: `=`, `+`, `-`, `/`, and `*`
+- many are familiar: `+`, `-`, `/`, and `*`
 - some are unfamiliar: `++`, `!`, `&&`, and `||`
 
 ---
@@ -141,7 +160,7 @@ return
 # Statements
 
 - a complete instruction that a computer can take action on
-- most statements in C++ **must** end with a `;`
+- all statements in C++ **must** end with a `;`
 
 ---
 
