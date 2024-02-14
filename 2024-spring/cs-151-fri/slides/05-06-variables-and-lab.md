@@ -3,7 +3,7 @@ theme: default
 paginate: true
 ---
 
-# 05 06 - Introduction to C++ and Coding Lab
+# 05 06 - Variables and Coding Lab
 2024-02-09
 
 ---
