@@ -114,6 +114,7 @@ total = bill + tax;
 
 # For Next Week
 
+- no class on Monday!
 - read Chapter 2
 - quiz on second half (2.9 - 2.17)
 - assignment will be posted
