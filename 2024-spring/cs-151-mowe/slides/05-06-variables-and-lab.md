@@ -11,6 +11,20 @@ paginate: true
 # Review
 ## What is 1 thing you remember about last class?
 
+- labs - the importance of `using namespace std;`
+  - allows us to not need `std::`
+  - `std` is a library
+- created and stored variables
+  - eg: `double name_of_variable;`
+- user input: `std::cin`
+  - eg: `std::cin >> variable;`
+- `<<` and `>>`
+  - used with `std::cout` and `std::cin`
+  - called stream operators
+  - defines the direction information
+  - `std::cout << "hello world";`
+  - `std::cin >> variable;`
+
 ---
 
 # Variables
