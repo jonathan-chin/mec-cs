@@ -13,6 +13,16 @@ paginate: true
 # Review
 ## What is 1 thing you remember from our last class?
 
+- data types - use the correct type depending on how we want to manipulate / process the data
+  - eg: int, string *, bool, float, double, array, function
+- variants - changes the amount / the way you use memory
+  - eg: long, short, long long, unsigned
+  - for CS151, you can pretty much ignore these
+- hexadecimal - base 16 representation of values
+- octal - base 8 representation of values
+  - for CS151, you can pretty much ignore these
+
+
 ---
 
 # Relational Operators
@@ -125,6 +135,7 @@ if(isWeekend == true){
 
 # Pseudocode and Comments
 
+- [example repl](https://replit.com/@jonchin/Psuedocode-Example)
 - think of comments as 1 of 2 things:
   - explain something that's not obvious
   - leave a placeholder to come back and write more code
@@ -146,4 +157,4 @@ if(isWeekend == true){
 
 # For Next Week
 
-- 
+- Read 5.1 - 5.11 on Looping
