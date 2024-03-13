@@ -11,6 +11,20 @@ paginate: true
 # Review
 ## What is 1 thing you remember about last class?
 
+- boolean operators - take boolean expressions and transforms them
+- `&&` takes 2 boolean expressions and evaluates to true only if both are true
+- `||` takes 2 boolean expressions and evaluates to true if at least one of them is true
+- `nesting` one thing inside another thing
+  - used `nested if statements` in color mixer
+- unique to C++ is the `else if` keyword
+  - allows us to chain if statements
+- `switch` - mimics a series of `==` checks with if statements
+  - `pros` - faster to write; also allows for more complex logic
+  - `cons` - in C++, can only use switch with `ints` and `chars`
+- `break` - exits out of the current `code block`
+- `return` - exits out of the entire function, possibly also giving a value
+  - eg: `return 0;`, `return;`
+
 ---
 
 # Control Flow - Loops
@@ -48,88 +62,6 @@ while(some_boolean_expression)
 - if the `condition` is always true, the same `code block` will keep running
 - will likely eat up your ram, making your computer sluggish or even crash
 - this is another example of a `logic error` or `runtime error`
-
----
-
-# Increment and Decrement Operators
-
-- often when using loops, we want to check our `condition` against a counter variable
-
-```
-int counter = 0;
-
-// all of these are the same thing
-counter = counter + 1;
-counter += 1;
-counter++;
-
-// all of these are the same thing
-counter = counter - 1;
-counter -= 1;
-counter--;
-```
-
----
-
-# Evaluation
-
-- `++` and `--` are a little more complicated than just increasing / decreasing
-- these operators will also `evaluate` the variable
-- this is pretty common `coding pattern`
-
-```
-int counter = 10;
-
-if(counter++ == 10){
-	// counter is evaluated first and THEN incremented
-	cout << "This line will run";
-}
-```
-
----
-
-# Prefix vs Postfix
-
-- there are two ways to write increment and decrement
-
-```
-int counter = 10;
-
-if(counter++ == 10){
-	// increments AFTER evaluation
-	cout << "this line will run";
-}
-
-counter = 10
-if(++counter == 10){
-	// increments BEFORE evaluation
-	cout << "this line will never run";
-}
-
-```
-
----
-
-# do-while Loop
-
-- regular `while` loop will only execute the `code block` if the `condition` is true
-- sometimes, you want to execute the `code block` `at least once`
-- `do-while` will guarantee the `code block` runs `at least once`
-
-```
-do{
-	// code goes here
-}while(some_boolean_expression)
-
-```
-
----
-
-# Do While Loop and Input Validation
-
-- `input validation` is checking that user input is valid, ie free from error
-- also called `error checking` or `sanitizing` or just plain `validation`
-- `do-while` loop can repeatedly ask user for input until valid data is given
 
 ---
 
