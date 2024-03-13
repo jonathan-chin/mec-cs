@@ -8,6 +8,27 @@ paginate: true
 
 ---
 
+# Review
+## What is 1 thing you remember from our last class?
+
+- `initialization` - the first time a variable is assigned a value
+  - eg: `numberOfCountries = 10;`
+  - before a variable is initialized, we can't guarantee what the value is
+  - could lead to bugs
+- `RAM` - the way a computer stores easily accessible data
+  - can visualize as a series of consecutive boxes
+  - helps us understand how variables change
+  - `memory trace` and `memory state`
+  - spots in memory are given `memory addresses`
+- `uninitialized variable` - a variable that wasn't given a value
+- user input
+  - must `validate`
+  - potential vector for hacking
+- `declaration` - tells the compiler that you're going to use a variable
+  - eg: `double taxes;`
+
+---
+
 # Assignments
 
 - generally expect a 1-2 week lag between submission and grading
@@ -15,11 +36,6 @@ paginate: true
 - if there is a point deduction, there will be a number following, like `// JC: -1.5`
 - be warned: any assignments that resemble output from generative AI, such as ChatGPT, will be flagged
 - repeated submissions of flagged material may result in a 0 for the course
-
----
-
-# Review
-## What is 1 thing you remember from our last class?
 
 ---
 
@@ -48,7 +64,7 @@ paginate: true
 
 ---
 
-# Different kinds of data can only be manipulative in certain ways
+# Different kinds of data can only be manipulated in certain ways
 
 ## These are are called `Data Types`
 
