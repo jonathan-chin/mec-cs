@@ -133,5 +133,5 @@ for(double stock_price : stock_prices){
 
 # For Next Class
 
-- read 8.1-8.8
+- read 8.1-8.7
 - quiz next week
