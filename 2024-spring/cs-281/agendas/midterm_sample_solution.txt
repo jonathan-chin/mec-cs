@@ -1,0 +1,130 @@
+Your goal is to write a series of SQL statements that adds a teaching_assistants table to the existing universtiy database and populate it with some initial data. You will also update existing rows in other tables to reflect these changes.
+
+---
+
+1. create a new table named teaching_assistant that has the following columns:
+ID and dept_name that corresponds to the same columns in the student table
+course_id, sec_id, semester, and year that correspond to the same columns in the section table
+note: you will need to make sure the data types match the corresponding columns and you will need to use foreign keys.
+note: this will also need a primary key; what do you think is a good solution for establishing a primary key?
+
+CREATE TABLE teaching_assistant (
+	ID varchar(5),
+	dept_name varchar(20),
+	course_id varchar(8),
+	sec_id varchar(8),
+	semester varchar(6),
+	year numeric(4,0),
+	primary key (ID, course_id, sec_id, 			semester, year),
+	foreign key (course_id, sec_id, semester, year) references section
+);
+
+---
+
+2. select all students who have earned an A in any class. your SQL statement should show the student's ID, name, and department, as well as the course's ID, section ID, semester, year, and grade.
+
+
+SELECT ID, name, dept_name, course_id, sec_id, semester, year, grade
+FROM student
+NATURAL JOIN takes
+WHERE grade = 'A';
+
+---
+
+3. for each record in the results of this select statement, write a SQL statement that adds a corresponding record in the new teaching_assistant table.
+note: a section can only have one teaching assistant. if there are more than one student eligible to be a TA for a section, choose one and in a comment, explain why you chose that student instead of the others.
+
+
+
+INSERT INTO teaching_assistant VALUES(
+'00128',
+'Comp. Sci.',
+'CS-101',
+'1',
+'Fall',
+2017
+);
+INSERT INTO teaching_assistant VALUES(
+'12345',
+'Comp. Sci.',
+'CS-190',
+'2',
+'Spring',
+2017
+);
+INSERT INTO teaching_assistant VALUES(
+'12345',
+'Comp. Sci.',
+'CS-315',
+'1',
+'Spring',
+2018
+);
+INSERT INTO teaching_assistant VALUES(
+'12345',
+'Comp. Sci.',
+'CS-347',
+'1',
+'Fall',
+2017
+);
+INSERT INTO teaching_assistant VALUES(
+'76543',
+'Comp. Sci.',
+'CS-319',
+'2',
+'Spring',
+2018
+);
+INSERT INTO teaching_assistant VALUES(
+'98988',
+'Biology',
+'BIO-101',
+'1',
+'Summer',
+2017
+);
+
+---
+
+4. select all from the updated teaching_assistant table to show that these additions were done correctly
+
+
+SELECT * FROM teaching_assistant;
+
+---
+
+5. create a new view named num_teaching_assistants, based on the teaching_assistant table, that shows two columns:
+dept_name and count
+count should be the total number of records in the teaching_assistant table for that particular department
+you should use aggregate functions for this
+note: count is different than count() and COUNT(). you will likely have to rename the column
+
+
+CREATE VIEW num_teaching_assistant AS SELECT dept_name, COUNT() as count FROM teaching_assistant GROUP BY dept_name;
+
+---
+
+6. select all from this new view to show that it is correct
+
+SELECT * FROM num_teaching_assistant;
+
+---
+
+7. using this view, update the department table to increase their budget by 5000 per teaching assistant
+
+UPDATE department SET budget = budget + 5000 WHERE dept_name = 'Biology';
+UPDATE department SET budget = budget + 25000 WHERE dept_name = 'Comp. Sci.';
+
+---
+
+8. select all from the department table to show that these updates have been made
+
+SELECT * FROM department;
+
+---
+
+9. finally, show all departments that do not have a teaching assistant. you must use a join clause for this. you might also need the IS NULL operator to check if a field is null. you should show only the dept_name and they should be:
+Elec. Eng., Finance, History, Music, and Physics
+
+SELECT dept_name FROM department NATURAL LEFT OUTER JOIN teaching_assistant WHERE ID IS NULL;
