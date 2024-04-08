@@ -10,5 +10,16 @@
 - setting up pgAdmin
 - quick tour of pgAdmin
 - intro to designing databases
-- intro nodejs
-  - environment variables
+
+---
+
+# Review
+
+- `authorization` - providing limited access to the database per user / role to ensure security / integrity of our data
+  - `privileges` - one rule about access
+  - `roles` - a collection of privileges that allow a user to accomplish what they need
+- `host language` - another programming language that generates and/or sends SQL querieus
+- `ERD` - diagrams the database structure
+  - `entities` - tables
+  - `relations` - how tables are connected
+- `postgres` - a particular flavor of sql
