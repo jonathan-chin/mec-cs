@@ -25,7 +25,7 @@ const run = async () => {
     let sql;
 
     do{
-	input = prompt('type in the name of the sql file you want to run or exit to stop ');
+	input = prompt('type in the name of the sql file you want to run or exit to stop: ');
 	if(input === 'exit'){
 	    break;
 	}
@@ -33,6 +33,8 @@ const run = async () => {
 	const result = await client.query(sql);
         console.log(JSON.stringify(result, null, 4));
     }while(input !== 'exit');
+
+    client.end();
 };
 
 run();
