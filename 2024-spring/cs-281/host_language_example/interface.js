@@ -30,8 +30,15 @@ const run = async () => {
 	    break;
 	}
 	sql = fs.readFileSync(`./${input}.sql`).toString();
-	const result = await client.query(sql);
-        console.log(JSON.stringify(result, null, 4));
+	const results = await client.query(sql);
+    for(const result of results){
+        for(const row of result.rows){
+            console.log(row);
+            console.log('\n');
+        }
+    }
+    /*
+    */
     }while(input !== 'exit');
 
     client.end();
