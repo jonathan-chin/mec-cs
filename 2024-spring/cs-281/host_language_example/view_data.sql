@@ -1,0 +1,2 @@
+SELECT * FROM city;
+SELECT * FROM team;

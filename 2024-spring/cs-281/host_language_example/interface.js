@@ -29,16 +29,20 @@ const run = async () => {
 	if(input === 'exit'){
 	    break;
 	}
-	sql = fs.readFileSync(`./${input}.sql`).toString();
-	const results = await client.query(sql);
-    for(const result of results){
-        for(const row of result.rows){
-            console.log(row);
-            console.log('\n');
-        }
-    }
-    /*
-    */
+	try{
+	    sql = fs.readFileSync(`./${input}.sql`).toString();
+	    
+	    const response = await client.query(sql);
+	    const results = Array.isArray(response) ? response : [response]; // coerce to array
+	    for(const result of results){
+		for(const row of result.rows){
+		    console.log(row);
+		}
+	    }
+	}catch(error){
+	    // usually file not found?
+	    console.log(error.toString());
+	}
     }while(input !== 'exit');
 
     client.end();
