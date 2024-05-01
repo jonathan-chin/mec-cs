@@ -46,10 +46,31 @@ char get_first_letter(string word){
 
 ---
 
-# Function Calls
+# Function Calls 1/2
 
 - a `function call` is when a defined function is requested to execute
 - the `control flow` will pause where it currently is, run the function, and then come back
+
+---
+
+# Function Calls 2/2
+
+```
+int getSquare(int number){
+	return number * number;
+}
+
+int main(){
+	int numberToSquare;
+	std::cout >> "Enter a number to square: ";
+	std::cin << numberToSquare;
+	std::cout << "The answer is " << getSquare(numberToSquare);
+	// more code
+}
+
+
+
+```
 
 ---
 
@@ -110,6 +131,8 @@ int main(){
 ---
 
 # Code Along
+
+[https://replit.com/@jonchin/2024-05-01-functions-example](https://replit.com/@jonchin/2024-05-01-functions-example)
 
 ---
 
