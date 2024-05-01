@@ -3,12 +3,14 @@ require('dotenv').config();
 const fs = require('fs');
 const prompt = require('prompt-sync')();
 
+const username = prompt('login with username: ');
+const password = prompt('login with password: ');
 
 const client = new Client({
-    user: process.env.PG_USER,
+    user: username,
     host: process.env.PG_HOST,
     database: process.env.PG_DATABASE,
-    password: process.env.PG_PASSWORD,
+    password: password,
     port: process.env.PG_PORT,
     ssl: true
 });
