@@ -1,1 +1,1 @@
-SELECT name, primary_color FROM city;
+SELECT name, primary_color FROM team;

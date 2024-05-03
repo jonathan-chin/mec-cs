@@ -7,4 +7,5 @@
 
 - review authentication
   - updated `interface.js` file
+- review generating ERD with pgAdmin
 - review Final Project requirements
