@@ -26,6 +26,17 @@ Think of a real world application where a database may be used. It must be a sit
 
 Try to have everything make sense in the context of your DBMS. For example, if you are building a banking database, an integrity constraint might be that an account's balance can't be below 0.
 
-For requirement, write 1-3 sentences explaining what is happening and why you chose to design it this way.
+For each requirement listed above, write 1-3 sentences explaining what is happening and why you chose to design it this way. You should have 15-45 sentences.
 
 Finally, generate and provide an ERD.
+
+## Submission
+
+When you are ready to submit, please submit all of the following files:
+
+- all of your `.sql` files. do not submit any example `.sql` files that I have provided.
+- a file named `README.txt` that has all of your explanatory sentences in them. Please separate them out with numbers and use a generous amount of white space.
+- a file named `erd.png` that is the exported ERD file from `pgAdmin`.
+- a file named `RUNME.txt` that has the order in which to run your `.sql` files.
+
+Do not submit a `.zip`, `.rar`, or any other archive file. Just submit all of them as individual files.
