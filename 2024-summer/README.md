@@ -8,14 +8,17 @@
 
 # Average Daily Agenda
 
-|     | Daily Breakdown                                            |       |                               |               |
-|-----|------------------------------------------------------------|-------|-------------------------------|---------------|
-|     |                                                            |       |                               |               |
-| Time | Activity                                                   |       |                               |               |
-| 9:00 AM | Set Goals Review                                        | 9:30 AM | Individualized Learning Self navigated material and exercises |               |
-| 11:15 AM | 15 Minute Break                                        | 11:30 AM | Continue Individualized Learning |               |
-| 12:45 PM | Whole class activity using NYC Open Data               | 1:15 PM | Class ends Tutoring available |               |
-| 2:15 PM | Tutoring ends                                           |       |                               |               |
+|          | Daily Breakdown                                               |
+|----------|---------------------------------------------------------------|
+|          |                                                               |
+| Time     | Activity                                                      |
+| 9:00 AM  | Set Goals Review                                              |
+| 9:30 AM  | Individualized Learning Self navigated material and exercises |
+| 11:15 AM | 15 Minute Break                                               |
+| 11:30 AM | Continue Individualized Learning                              |
+| 12:45 PM | Whole class activity using NYC Open Data                      |
+| 1:15 PM  | Class ends Tutoring available                                 |
+| 2:15 PM  | Tutoring ends                                                 |
 
 
 # Calendar
