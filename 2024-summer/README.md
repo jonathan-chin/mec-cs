@@ -10,7 +10,6 @@
 
 |          | Daily Breakdown                                               |
 |----------|---------------------------------------------------------------|
-|          |                                                               |
 | Time     | Activity                                                      |
 | 9:00 AM  | Set Goals Review                                              |
 | 9:30 AM  | Individualized Learning Self navigated material and exercises |
