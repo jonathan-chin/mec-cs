@@ -1,10 +1,14 @@
-
 # Pre Assessment - Knowledge
 
 Please download [this file](https://github.com/jonathan-chin/mec-cs/raw/main/2024-summer/preassessment_knowledge.docx) and answer all the questions in it as best you can.
 
 Once you are done, upload it to our [Airtable](https://airtable.com/appudInR1oW4SZ2yy/shrUYo7AuCtdIK0VP). Don't forget to select your name when submitting!
 
+# Pre Assessment - Coding
+
+Please download [this file](https://github.com/jonathan-chin/mec-cs/blob/main/2024-summer/preassessment_coding.pdf). It contains 5 coding problems. As best as you can, for each problem, write a `.py` file that accomplishes the task. Name the `.py` file in the following format: `q#.py`. For example, `q1.py` will answer question 1, `q2.py` will answer question 2, etc.
+
+Once you are done, upload all of the files to our [Airtable](https://airtable.com/appudInR1oW4SZ2yy/shrDgCDdULdC9MuMt)
 
 # Important Links
 
