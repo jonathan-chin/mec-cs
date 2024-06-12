@@ -13,7 +13,13 @@ Once you are done, upload it to our [Airtable](https://airtable.com/appudInR1oW4
 - [Coursera - Data Analysis with Python by IBM](https://www.coursera.org/learn/data-analysis-with-python)
 - [Affinity Groups - Find Friends!](https://docs.google.com/presentation/d/19tlQfUSUQ00JCVVDizFvu-R7gfXVCtiWnc3y4xJMPd8/edit?usp=sharing)
 - [Media Release Form](https://survey.alchemer.com/s3/5988425/Media-Release-Form)
-- 
+
+
+# Food Chatter
+
+Food Chatter is a research project from the Hunter College NYC Food Policy Center that explores how New Yorkers used social media, specifically Twitter, to seek and share food security help with each other.
+
+All of the code used to clean, analyze, visualize, and report the data is [publicly available.](https://github.com/jonathan-chin/food-chatter-code)
 
 # Average Daily Agenda
 
@@ -37,7 +43,7 @@ Here is the plan for our summer bootcamp. It is subject to change!
 |----------|-----------------------------------------------------------------------------------------------------|--------|---------------------------------------------------------------|--------|
 |          | Day 1                                                                                               | Day 2  | Day 3                                                         | Day 4  |
 | Week 1   | Pre Assessment Logistics and Setup Intro to Jupyter Notebooks                                      | Kaggle: Python | Kaggle: Data Cleaning                                       | Kaggle: Data Cleaning |
-| Week 2   | Coursera: Data Analysis with Python - Importing Data Sets - Data Wrangling - Exploratory Data Analysis | Coursera: Data Analysis with Python - Importing Data Sets - Data Wrangling - Exploratory Data Analysis | Juneteenth Holiday                                           | Kaggle: Pandas |
+| Week 2   | TBD | TBD | Juneteenth Holiday                                           | Kaggle: Pandas |
 | Week 3   | Kaggle: Pandas                                                                                     | Coursera: Python for Applied Data Science / AI - Working with Data in Python | Coursera: Python for Applied Data Science / AI - Working with Data in Python | Kaggle: Data Visualization |
 | Week 4   | Kaggle: Data Visualization                                                                        | Coursera: Data Visualization with Python - Introduction to Data Visualization Tools - Basic and Specialized Visualization Tools - Creating Dashboards with Plotly and Dash | Coursera: Data Visualization with Python - Introduction to Data Visualization Tools - Basic and Specialized Visualization Tools - Creating Dashboards with Plotly and Dash | July 4 Holiday |
 | Week 5   | Kaggle: Geospatial Analysis                                                                       | Kaggle: Geospatial Analysis | Coursera: Python for Data Visualization - Advanced Visualizations and Geospatial Data | Coursera: Python for Data Visualization - Advanced Visualizations and Geospatial Data |
