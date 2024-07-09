@@ -25,7 +25,7 @@ Subject to change on a day to day basis
 | Time     | Activity                                                      |
 | 9:00 AM  | Set Goals Review                                              |
 | 9:30 AM  | Individualized Learning Self navigated material and exercises |
-| 11:00 AM | 15 Minute Break                                               |
+| 11:00 AM | 20 Minute Break                                               |
 | 11:20 AM | Continue Individualized Learning                              |
 | 12:45 PM | Code Alongs or other activities                               |
 | 1:15 PM  | Class ends Tutoring available                                 |
