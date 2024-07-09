@@ -16,6 +16,7 @@ Once you are done, upload all of the files to our [Airtable](https://airtable.co
 - [Kaggle Learn](https://www.kaggle.com/learn)
 - [Coursera - Data Analysis with Python by IBM](https://www.coursera.org/learn/data-analysis-with-python)
 - [NYC Open Data](https://opendata.cityofnewyork.us)
+- [Kaggle Notebook: NYC SAT Scores Analysis](https://www.kaggle.com/code/jonchinml/nyc-sat-scores-analysis)
 - [Affinity Groups - Find Friends!](https://docs.google.com/presentation/d/19tlQfUSUQ00JCVVDizFvu-R7gfXVCtiWnc3y4xJMPd8/edit?usp=sharing)
 - [Media Release Form](https://survey.alchemer.com/s3/5988425/Media-Release-Form)
 
