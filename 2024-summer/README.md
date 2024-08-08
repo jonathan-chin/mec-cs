@@ -3,6 +3,8 @@
 - [Review and Goal Setting](https://t.ly/9KsMb)
 - [DataCamp](https://app.datacamp.com)
 - [Kaggle Learn](https://www.kaggle.com/learn)
+- [Example notebook exploring our bootcamp goals](https://www.datacamp.com/datalab/w/8000211b-6688-4f11-a8f7-22a16273124a/edit)
+- [Example notebook on using logistic regression](https://www.datacamp.com/datalab/w/10223d5f-f689-4e6f-b82e-8f26fab98f9c/edit)
 - [Coursera - Data Analysis with Python by IBM](https://www.coursera.org/learn/data-analysis-with-python)
 - [NYC Open Data](https://opendata.cityofnewyork.us)
 - [Kaggle Notebook: NYC SAT Scores Analysis](https://www.kaggle.com/code/jonchinml/nyc-sat-scores-analysis)
